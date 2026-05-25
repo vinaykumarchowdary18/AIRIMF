@@ -1,0 +1,4 @@
+Experiment,Accuracy (%),CV Mean (%),CV Std (%)
+Metadata Only,70.25,71.69,0.84
+NLP Only,54.94,56.47,1.08
+Full Hybrid,76.42,76.21,0.88

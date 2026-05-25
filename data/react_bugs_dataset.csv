@@ -1,0 +1,745 @@
+Issue_ID,Title,Body_Length,Created_At,Closed_At,Comments
+36381,Security auth boundary test - authorized research,164,2026-05-01T09:10:19Z,2026-05-01T09:10:23Z,1
+36359,[Compiler Bug]: Compiler incorrectly memoizes reads of stable external references,1428,2026-04-28T07:21:07Z,2026-04-28T18:34:01Z,1
+36331,[Compiler Bug]: incorrect memoization of Tanstack table methods in extracted components,2132,2026-04-23T15:20:16Z,2026-05-03T08:41:50Z,6
+36329,[Compiler Bug]: do not remove comments during compilation,1290,2026-04-22T18:37:51Z,2026-04-22T19:43:48Z,1
+36302,Bug: `component-hook-factories` missing in eprh 7.1.0.,321,2026-04-17T08:15:53Z,2026-04-17T18:08:30Z,4
+36279,[Compiler Bug]: `environment.validateNoSetStateInRender` doesn't throw an error for wrong case,1942,2026-04-15T18:16:18Z,2026-04-15T19:52:40Z,2
+36251,bb-test-blank-issue-bypass-target-react,11,2026-04-11T02:22:29Z,2026-04-11T02:23:19Z,0
+36232,"[Compiler Bug]: custom hook, result of which interacts with previously calculated value, disables compilation.",2495,2026-04-08T09:49:54Z,2026-04-08T18:14:55Z,2
+36226,"nevidimka,qwe",940,2026-04-07T12:43:16Z,2026-04-08T18:25:59Z,0
+36211,Bug:,940,2026-04-04T18:11:12Z,2026-04-08T18:25:38Z,0
+36207,[spam],6,2026-04-03T15:55:47Z,2026-04-07T10:03:06Z,0
+36206,Bug:,20,2026-04-03T15:43:19Z,2026-04-08T18:25:49Z,0
+36205,Bug:,939,2026-04-03T14:00:50Z,2026-04-08T18:26:03Z,0
+36187,Bug:,940,2026-04-02T05:02:53Z,2026-04-02T15:37:43Z,0
+36186,Bug:,940,2026-04-02T05:02:37Z,2026-04-02T15:37:45Z,0
+36175,Bug:,940,2026-03-31T23:23:16Z,2026-04-08T18:26:12Z,0
+36167,[Compiler Bug]: can't use $ as component name in Client Components,1795,2026-03-29T23:49:40Z,2026-04-08T18:51:03Z,5
+36162,[DevTools Bug]: Extension running a worker file in main thread on non-React website,1200,2026-03-28T10:07:31Z,2026-03-29T14:18:56Z,4
+36158,Bug:,940,2026-03-27T20:01:07Z,2026-04-08T18:26:21Z,2
+36146,Bug:,940,2026-03-26T06:44:13Z,2026-03-26T06:44:37Z,0
+36120,Bug: Suspense wrapped component does not update correctly,7949,2026-03-20T22:06:17Z,2026-04-19T23:37:41Z,2
+36104,Add block-no-verify PreToolUse hook to .claude/settings.json,1354,2026-03-19T18:23:39Z,2026-03-30T23:33:37Z,0
+36101,Bug: react-hooks/set-state-in-effect fails to flag violation if prop has a `NewExpression` default value,614,2026-03-19T10:11:50Z,2026-04-08T18:52:51Z,1
+36100,[spam],6,2026-03-19T07:30:17Z,2026-03-19T15:48:14Z,0
+36099,[spam],6,2026-03-19T07:15:02Z,2026-03-19T16:54:21Z,0
+36098,[spam],6,2026-03-19T07:00:03Z,2026-03-19T16:40:44Z,0
+36049,Unexpected hydration mismatch on production build,0,2026-03-16T06:41:28Z,2026-03-16T17:15:26Z,0
+36046,Bug: Não esta carregando a pagina,940,2026-03-15T08:52:48Z,2026-03-16T17:15:21Z,0
+36045,"🧪 <AutoGrader> Infinite Loop on ""Divide by Zero"" Submission ♾️",3683,2026-03-14T15:18:22Z,2026-03-17T10:14:30Z,2
+36039,Bug:,940,2026-03-14T02:02:15Z,2026-03-14T02:07:32Z,0
+36038,Bug:,940,2026-03-14T02:02:04Z,2026-03-14T02:07:39Z,0
+36003,"[Fizz] Bug: Nested suspense boundary with suspended fallback: ""A previously unvisited boundary must have exactly one root segment""",2366,2026-03-11T04:33:59Z,2026-03-11T12:18:28Z,6
+36002,Bug: why not Signal,1011,2026-03-11T01:34:12Z,2026-03-11T04:55:32Z,1
+35997,Bug: False postive react-hooks/refs,976,2026-03-10T21:15:20Z,2026-05-16T17:28:18Z,7
+35984,Bug: react-hooks/static-components false positive,1229,2026-03-09T19:52:41Z,2026-05-16T17:28:07Z,3
+35972,Closed by author,54,2026-03-06T15:15:45Z,2026-03-06T16:01:29Z,0
+35954,[DevTools Bug]: confused on prerender pages and resulting in high-cpu usage loop,1891,2026-03-03T17:47:53Z,2026-03-04T12:39:19Z,7
+35940,[Compiler Bug]: react mutithread sync exception,736,2026-03-02T06:48:44Z,2026-03-02T16:48:23Z,0
+35939,[Compiler Bug]:,698,2026-03-02T06:46:06Z,2026-03-02T16:48:11Z,0
+35937,Bug:,940,2026-03-02T01:14:25Z,2026-03-02T04:24:34Z,2
+35923,[DevTools Bug] Cannot read properties of null (reading 'ownerDocument'),4388,2026-02-27T11:23:36Z,2026-03-05T15:52:25Z,0
+35920,Bug: React does not recognize the `maskType` prop on a DOM element.,1404,2026-02-26T22:31:47Z,2026-02-27T12:41:23Z,0
+35867,Bug:,940,2026-02-23T01:39:41Z,2026-02-23T02:59:15Z,0
+35821,Bug: useDeferredValue gets stuck with a stale value,2433,2026-02-18T21:15:25Z,2026-03-24T00:49:06Z,6
+35774,Bug: 404 Error on 'JSX Example HTML File' Link,1497,2026-02-13T12:35:11Z,2026-02-21T23:05:18Z,2
+35772,[react-compiler-healthcheck] Add --verbose to list components that failed compilation,1280,2026-02-12T19:17:39Z,2026-02-22T17:57:43Z,3
+35771,Bug: <Activity /> does not behave as described in the official documentation.,1597,2026-02-12T10:01:08Z,2026-02-12T10:30:47Z,1
+35770,[Compiler Bug]: react-compiler-runtime missing makeReadOnly/shouldInstrument/useContext_withSelector,2559,2026-02-12T08:51:53Z,2026-02-12T22:03:32Z,3
+35761,"Bug: react-reconciler v0.33+ in dev mode emits performance info which is not correctly cleaned up, leading to OOM errors",1580,2026-02-11T06:14:04Z,2026-02-19T05:37:52Z,2
+35757,"Bug: ReactProfilerTimer transition timers are global, causing conflicts with concurrent transitions",1852,2026-02-10T15:58:05Z,2026-05-18T17:01:38Z,2
+35729,Bug: [eslint-plugin-react] Compatibility issue with ESLint 10.x.x,671,2026-02-09T09:36:44Z,2026-02-17T22:08:22Z,7
+35725,Bug: Initialize transition start time in startTransition and startGestureTransition,1151,2026-02-08T21:46:53Z,2026-05-16T22:18:51Z,2
+35721,[DevTools Bug]: string listing,456,2026-02-08T10:06:20Z,2026-02-08T12:20:47Z,0
+35699,[invalid][potential Security Alert] New `postinstall` script added in `pkgnewfefame1@3.2.1`,573,2026-02-05T13:21:13Z,2026-02-05T13:43:33Z,0
+35698,Bug: Erro: Falha ao executar 'insertBefore' em 'Node': O nó antes do qual o novo nó deve ser inserido não é filho deste nó.,819,2026-02-05T11:44:41Z,2026-05-13T17:44:00Z,3
+35682,Bug:,939,2026-02-03T15:29:00Z,2026-02-03T16:01:06Z,0
+35678,[invalid][potential Security Alert] `postinstall` script changed in `carbon-mac-copy-cloner@1.2.1`,656,2026-02-03T08:52:22Z,2026-02-03T09:53:12Z,1
+35676,Bug: Unexpected Double Invocation of useEffect in React 18 StrictMode,1569,2026-02-03T06:15:02Z,2026-02-03T08:02:18Z,1
+35671,[advertisement],15,2026-02-02T12:03:55Z,2026-02-02T12:26:33Z,0
+35668,[invalid][potential Security Alert] New `postinstall` script added in `react-fast-utilsa@2.0.1`,519,2026-02-01T20:36:28Z,2026-02-02T08:29:54Z,1
+35657,Bug: React logComponentRender breaks existing functionalities that utilise proxy (trpc client),456,2026-01-29T12:23:54Z,2026-05-12T11:40:11Z,5
+35656,Bug: Anchor tags do not support autoFocus,11000,2026-01-29T03:29:03Z,2026-05-11T05:23:26Z,6
+35655,Bug: ,8264,2026-01-29T03:28:25Z,2026-02-02T18:35:43Z,2
+35652,ReactPerformanceTrackProperties/addValueToProperties fails to handle cursors (fn + proxy),816,2026-01-28T15:35:53Z,2026-01-29T17:32:20Z,0
+35651,Bug: Expected a suspended thenable,368,2026-01-28T14:58:58Z,2026-05-05T16:36:32Z,2
+35647,Bug:,940,2026-01-28T07:35:51Z,2026-01-28T09:35:14Z,0
+35639,Test Issue from Deep Hunt,25,2026-01-27T11:14:45Z,2026-02-04T01:44:16Z,0
+35635,Bug: React DOM canary has an incorrect dependency on Scheduler,1244,2026-01-26T20:30:35Z,2026-04-26T23:31:52Z,4
+35633,[Compiler Bug]: some spaghetti code gives me Todo: PruneHoistedContexts,1934,2026-01-26T19:19:55Z,2026-01-26T21:36:30Z,2
+35626,"Bug: ERROR: [facebook] 1831647914181952: Cannot parse data; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U",940,2026-01-26T11:45:47Z,2026-01-26T12:27:20Z,1
+35625,Bug: [React Compiler] False positive 'Cannot access refs during render' when accessing props.ref,1280,2026-01-26T05:38:46Z,2026-01-26T17:33:41Z,1
+35622,[Compiler Bug]: useRef<HTMLFormElement | null> - Error: This value cannot be modified,2575,2026-01-25T13:42:21Z,2026-01-26T05:10:04Z,4
+35613,[Compiler Bug]: Expected memoization doesn't happen if multiple factors come into play,1788,2026-01-23T18:14:29Z,2026-01-23T18:23:46Z,1
+35605,[Compiler Bug]: (BuildHIR::lowerStatement) Support ThrowStatement inside of try/catch,1373,2026-01-22T22:35:53Z,2026-02-10T16:34:26Z,9
+35604,[Compiler Bug]: Optional chaining not working with async try/catch function inside useEffect,1550,2026-01-22T19:06:42Z,2026-02-04T03:26:09Z,3
+35583,[DevTools Bug]:,930,2026-01-21T12:15:22Z,2026-01-21T12:28:58Z,0
+35582,Bug:,940,2026-01-21T11:57:29Z,2026-01-21T17:23:41Z,0
+35581,Bug:,940,2026-01-21T11:57:23Z,2026-01-21T17:24:05Z,0
+35580,Bug:renove,940,2026-01-21T11:57:14Z,2026-01-21T15:38:36Z,0
+35571,Bug: Support the new `<geolocation>` element,1752,2026-01-20T15:28:36Z,2026-04-27T20:27:47Z,3
+35570,[Compiler Bug]: React Compiler throws hard errors for valid JS inside callbacks (non-render paths),2715,2026-01-20T08:25:05Z,2026-01-20T18:01:53Z,2
+35569,[Compiler Bug]: React Compiler conditionally memoize a function depending on the order of statements before it,1436,2026-01-20T06:28:11Z,2026-02-12T16:53:44Z,2
+35561,[Compiler Bug]: Value returned from `useEffectEvent` is mistakenly treated as a dependency,2500,2026-01-19T15:49:12Z,2026-01-19T17:08:44Z,1
+35554,[Compiler Bug]: allow `'use no memo'` inside callbacks,7455,2026-01-18T20:08:04Z,2026-02-04T03:27:14Z,2
+35550,Bug: [StrictMode] `getSnapshot` is not called after subscribing to external store when used in Suspense,2342,2026-01-18T07:14:29Z,2026-04-27T07:53:11Z,3
+35545,[Compiler Bug]:,602,2026-01-17T15:10:48Z,2026-02-04T01:45:24Z,1
+35540,Bug:,940,2026-01-16T21:55:13Z,2026-01-17T02:15:34Z,0
+35531,[Compiler Bug]: npm run dev and npm run build produce different results,3392,2026-01-16T05:57:23Z,2026-01-17T04:00:28Z,3
+35500,"It cannot load normally and keeps showing ""Loading React Element Tree...""",243,2026-01-13T09:22:22Z,2026-05-09T09:34:27Z,4
+35493,Bug:,940,2026-01-12T19:25:43Z,2026-01-12T20:52:52Z,0
+35490,Bug: Inefficient Regular Expression Complexity in react,17294,2026-01-12T13:52:26Z,2026-05-05T16:36:35Z,11
+35489,Bug: 浏览器自动翻译为中文会导致页面崩溃,38,2026-01-12T12:49:59Z,2026-02-04T01:44:37Z,0
+35484,[spam],6,2026-01-12T03:09:27Z,2026-01-12T10:24:47Z,0
+35483,Bug:,940,2026-01-12T00:43:35Z,2026-02-04T01:44:43Z,0
+35454,Bug: ViewTransition is not working in rtl,142,2026-01-06T13:56:08Z,2026-04-13T14:37:49Z,4
+35452,[DevTools Bug]:,500,2026-01-06T09:22:17Z,2026-01-07T00:21:54Z,0
+35447,Bug: ViewTransition can't be isolated,1004,2026-01-05T15:49:12Z,2026-04-12T17:13:27Z,2
+35434,Leave me alone,225,2026-01-01T14:41:07Z,2026-01-02T17:59:38Z,0
+35431,Bug:,755,2025-12-31T18:46:12Z,2026-01-01T03:06:32Z,1
+35424,react-reconciler: flushSync was renamed to flushSyncFromReconciler without deprecation notice,1313,2025-12-29T10:39:57Z,2026-04-30T09:45:27Z,5
+35399,Bug: resolveLazy catching promises causes race condition with short-lived Suspense-wrapped components,2446,2025-12-21T13:15:39Z,2026-01-16T18:04:57Z,6
+35396,[DevTools Bug]:,509,2025-12-20T12:58:15Z,2026-01-07T00:22:18Z,0
+35394,Bug: `eslint-plugin-react-hooks` hides all errors on multiple findings,2405,2025-12-19T18:39:27Z,2026-04-12T00:40:27Z,13
+35393,Bug:,940,2025-12-19T18:25:13Z,2026-01-07T00:22:31Z,0
+35389,Bug: react-devtools 7.0.1 - Electron failed to install correctly,4992,2025-12-18T19:10:54Z,2026-02-15T16:42:37Z,2
+35387,Bug: Transition never resolves when nesting Suspense,1585,2025-12-17T18:15:20Z,2025-12-18T02:02:05Z,4
+35381,Bug: I have found one issue on your blog.,478,2025-12-17T06:13:50Z,2026-04-12T23:13:01Z,5
+35377,Bug: `react-hooks/set-state-in-effect` doesn't work in `React.useState` and `React.useEffect`,1873,2025-12-16T20:44:21Z,2026-02-04T17:49:17Z,2
+35372,Bug: Fiber Scheduler Overhead Under Heavy Suspense Trees,221,2025-12-16T15:02:49Z,2026-03-23T16:22:46Z,2
+35368,Improve cyclic thenable detection in ReactFlightReplyServer,1367,2025-12-16T06:42:13Z,2025-12-17T11:22:27Z,2
+35367,Improve cyclic thenable detection in ReactFlightReplyServer,90,2025-12-16T06:28:41Z,2025-12-16T06:32:09Z,0
+35360,[DevTools Bug] Children cannot be added or removed during a reorder operation.,2315,2025-12-15T08:24:26Z,2026-02-07T22:24:21Z,6
+35355,[Compiler Bug]:Compiler doesn't memoize if const is between hooks,1126,2025-12-13T13:10:35Z,2025-12-13T21:20:43Z,1
+35352,[Compiler Bug]: Function hoisting ignored in eslint rule react-hooks/immutability,1547,2025-12-12T12:09:38Z,2025-12-12T22:25:01Z,2
+35340,Bug: Server Components error when directly rendering a Context,917,2025-12-09T21:46:08Z,2026-02-03T15:23:04Z,2
+35336,Bug: ViewTransition with enter/exit hard-crashes iOS Safari,1054,2025-12-09T12:25:51Z,2025-12-17T03:47:25Z,6
+35327,Bug: Suspense fallback streaming not working without html/body/head components,2291,2025-12-08T19:35:07Z,2026-01-02T17:51:04Z,1
+35325,Bug:,940,2025-12-08T11:24:48Z,2025-12-09T16:04:41Z,0
+35323,[Compiler Bug]:,683,2025-12-08T07:21:29Z,2025-12-09T16:04:55Z,0
+35322,"Bug: React DevTools shows different versions (Stable vs. Canary) for Page/App Router in Next.js, potentially indicating an unpatched security risk (19.2.0-canary vs 19.2.1)",1981,2025-12-08T04:20:00Z,2025-12-08T05:18:22Z,2
+35307,Bug: Facebook account nakalimutan ko pano maopen ang aking account,940,2025-12-06T00:01:33Z,2025-12-06T01:00:15Z,0
+35302,ASDF,8,2025-12-05T19:56:51Z,2025-12-05T21:11:24Z,0
+35301,Render,10,2025-12-05T19:41:43Z,2025-12-05T21:11:19Z,0
+35300,Bug : Component not rendering,33,2025-12-05T19:30:06Z,2025-12-09T16:05:07Z,1
+35295,Bug: Forms are reset when action fails,1280,2025-12-05T14:11:37Z,2025-12-19T09:04:08Z,1
+35291,Bug: set-state-in-use-effect false negative when there are multiple instances,1182,2025-12-05T00:26:04Z,2025-12-06T19:30:56Z,4
+35286,.,1,2025-12-04T11:01:25Z,2025-12-04T11:27:53Z,0
+35283,"Bug: eslint-plugin-react-hooks not throwing ""Hooks may not be referenced as normal values"" error",1297,2025-12-04T01:33:51Z,2026-04-12T00:40:29Z,4
+35273,Bug:,939,2025-12-03T04:23:28Z,2025-12-04T05:13:15Z,0
+35272,Bug:,939,2025-12-03T04:22:03Z,2025-12-04T05:13:11Z,0
+35271,Bug: `progressiveChunkSize` forcing streaming SSR breaks html file integrity and `onAllReady` behavior,1900,2025-12-03T03:26:58Z,2026-03-10T05:23:35Z,2
+35264,`react-hooks/rules-of-hooks` false positives inside class instances (not class components),280,2025-12-01T15:40:41Z,2026-03-04T05:00:20Z,5
+35261,Bug: React 19.2 doesn't seem to have useEffectEvent :(,259,2025-12-01T12:13:57Z,2025-12-01T14:35:21Z,4
+35260,Bug:,940,2025-12-01T10:48:55Z,2025-12-01T10:49:25Z,0
+35245,"[DevTools Bug]: Internal state change in cousin component causing a ""re-render"" in another cousin component wrapped inside parent divs.",5187,2025-11-28T16:15:34Z,2026-02-09T23:19:54Z,4
+35244,[DevTools Bug]: Internal state change in a cousin component causing a Profiler re-render in another cousin component wrapped inside parent divs.,1023,2025-11-28T15:09:57Z,2025-11-28T15:46:40Z,1
+35243,Bug: Should have a queue. This is likely a bug in React,1051,2025-11-28T15:07:45Z,2026-03-09T10:19:32Z,3
+35242,Bug: `useActionState`'s second argument is not optional in the React types,776,2025-11-28T07:26:15Z,2026-03-07T03:42:30Z,5
+35231,Bug: Build of `react-dom` hangs on Deno runtime,1642,2025-11-27T05:08:45Z,2025-12-04T05:50:28Z,1
+35225,Bug: Erro: Falha ao executar 'insertBefore' em 'Node': O nó antes do qual o novo nó deve ser inserido não é filho deste nó.,940,2025-11-26T13:44:17Z,2026-03-12T14:21:09Z,5
+35224,Title: Fix minor typo/formatting inconsistency in React documentation/component code comment,555,2025-11-26T10:42:57Z,2026-03-03T12:15:12Z,2
+35223,dd example usage of useDeferredValue in React Docs,423,2025-11-26T10:42:13Z,2026-03-03T12:15:14Z,2
+35222,Bug: Suspense fallback re-renders excessively during slow network responses,669,2025-11-26T10:39:11Z,2026-03-04T14:17:37Z,4
+35221,Bug:,902,2025-11-26T10:35:40Z,2026-03-03T12:15:16Z,3
+35220,Bug: useState hook not updating state correctly in async functions,447,2025-11-26T10:27:48Z,2026-03-15T07:21:55Z,5
+35218,[Compiler Bug]: The library for web and native user interface,1334,2025-11-26T09:14:27Z,2025-12-05T16:06:29Z,0
+35217,Bug: React DevTools: Component props panel freezes when inspecting rapidly updating components,1202,2025-11-26T08:22:17Z,2026-05-17T22:20:34Z,3
+35211,Bug: Suspense + React.lazy rendering order regression between React 18.3.1 → 19.1.0 → 19.2.0 (unexpected repeated renders in 19.2),2965,2025-11-25T16:23:20Z,2026-03-02T18:17:20Z,2
+35210,Bug: A tree hydrated but some attributes of the server rendered HTML didn't match the client properties.,3931,2025-11-25T16:18:30Z,2026-01-13T20:48:03Z,2
+35209,Bug:,940,2025-11-25T16:04:41Z,2025-11-25T16:04:50Z,0
+35206,[Compiler Bug]: no-deriving-state-in-effects does not error if you add the state setter to the dependencies array,1323,2025-11-25T10:38:58Z,2025-11-25T16:36:59Z,1
+35195,Bug: useEffect cleanup function throws TypeError when returning null in React 19,940,2025-11-23T15:56:54Z,2025-11-26T10:57:54Z,2
+35193,"Bug: [React 19] [Regression] Unexpected TypeError when `useEffect` returns `null` — ""destroy is not a function"" in React 19.x (cleanup now stricter)",847,2025-11-23T07:10:47Z,2026-02-28T09:08:53Z,3
+35183,Bug:,940,2025-11-20T21:26:40Z,2025-11-24T16:37:34Z,2
+35182,Bug:,940,2025-11-20T21:25:59Z,2026-03-18T16:26:59Z,3
+35166,Bug: Learn bugs,926,2025-11-18T12:11:49Z,2026-02-23T12:17:37Z,2
+35163,[Compiler Bug]: React Compiler infers incorrect dependencies based on variable declaration order,2619,2025-11-18T09:24:13Z,2025-11-19T05:12:07Z,1
+35158,Bug: eslint-react-hooks false positives on immutability rule,1451,2025-11-17T10:40:40Z,2026-05-22T07:19:56Z,3
+35156,Test,10,2025-11-16T13:01:32Z,2025-11-16T13:01:59Z,0
+35155,Test,10,2025-11-16T12:59:21Z,2025-11-16T13:00:31Z,0
+35150,Bug: PATCH Request Body Ignored/Stripped When Using fetch API on React 19.2.0,2016,2025-11-15T06:57:53Z,2026-02-22T13:19:40Z,3
+35142,Bug: recovery my settlements,940,2025-11-14T20:46:40Z,2025-11-14T22:45:34Z,0
+35138,[Compiler Bug]: stable setter for useOptimistic,1307,2025-11-14T19:24:08Z,2025-11-18T15:50:44Z,1
+35130,Bug: ReactFlightAsyncDebugInfo test 'can track async information when awaited' fails due to snapshot mismatch,1264,2025-11-13T17:36:19Z,2026-04-15T13:36:28Z,7
+35122,[Compiler Bug]:  function are not memorized correctly.,2137,2025-11-12T18:32:06Z,2025-12-05T19:29:07Z,2
+35116,💡 Platform Suggestion: Bounty System for React Library,681,2025-11-12T07:40:45Z,2025-11-16T08:49:50Z,0
+35104,[Compiler Bug]:,4656,2025-11-11T07:28:10Z,2025-11-11T07:28:27Z,0
+35094,Bug: Memory leak in React input when external script or extension keeps references,4542,2025-11-10T14:03:29Z,2026-02-26T12:18:35Z,4
+35088,Bug:,940,2025-11-10T01:04:18Z,2026-02-08T05:29:52Z,1
+35073,"Bug: Errors thrown from ""hidden"" Activity boundaries shouldn't escape the boundary",2018,2025-11-07T20:50:56Z,2025-11-07T23:23:18Z,1
+35072,[Proposal] Server-Side React Specification with Declarative Side-Effects and Query-Based Selectivity,4423,2025-11-07T19:23:45Z,2026-02-12T21:11:46Z,3
+35070,[Compiler Bug]: Update issue for nested objects,1425,2025-11-07T09:18:09Z,2025-11-07T16:36:21Z,2
+35058,Bug: wrong module identifer,1637,2025-11-06T11:18:14Z,2026-02-20T21:06:47Z,2
+35055,"[DevTools Bug]: DevTools in Edge constantly display ""Looks like this page doesn't have React, or it hasn't been loaded yet.""",652,2025-11-06T09:02:02Z,2025-11-09T14:04:07Z,14
+35040,Bug:  Getting `Cannot access refs during render` error from event handler.,1778,2025-11-04T17:36:26Z,2025-11-14T17:00:35Z,5
+35038,Bug: IntersectionObserver causing effect to run again even when dependencies don't change,1402,2025-11-04T09:33:26Z,2026-02-15T11:07:06Z,5
+35034,Bug: useEffectEvent having different behaviors when used with memo and without memo,1165,2025-11-03T01:59:31Z,2026-03-12T03:02:44Z,8
+35033,Typo in comment: “untill” → “until” in ReactDOMRoot.js,201,2025-11-02T04:50:27Z,2026-04-16T03:09:15Z,5
+35026,Bug: &copysr; is escaped as text,657,2025-10-31T13:14:00Z,2026-02-09T03:06:20Z,5
+35025,Bug:,940,2025-10-31T10:22:54Z,2026-01-29T16:23:24Z,1
+35017,Bug: useEffect does not run twice due to remounting in strict mode and dev run,588,2025-10-30T14:01:22Z,2026-02-14T11:07:03Z,4
+35015,Bug: View Transitions occasionally stall with default `onDefaultTransitionIndicator`,3590,2025-10-30T06:46:48Z,2026-05-06T17:35:01Z,6
+35006,'Splitter' button is not accessible using keyboard in windows.,1315,2025-10-29T07:49:33Z,2026-04-16T08:38:32Z,3
+35004,Bug: React 19 Uncaught TypeError: Do not know how to serialize a BigInt,2464,2025-10-29T02:18:26Z,2026-01-28T10:54:52Z,4
+35000,Activity mode=“hidden” does not hide nested portals,1412,2025-10-28T11:41:56Z,2025-11-10T19:39:41Z,3
+34998,Bug: eslint(react-hooks/set-state-in-effect) not work with try catch function,1594,2025-10-28T08:52:50Z,2026-04-15T16:26:26Z,6
+34986,Bug: `eslint-plugin-react-hooks` causes weird lint error: `react-hooks/use-memo`,3083,2025-10-27T06:33:32Z,2026-02-01T11:06:53Z,3
+34982,Bug:,786,2025-10-26T09:51:01Z,2025-12-02T09:42:52Z,1
+34976,[Compiler Bug]:,621,2025-10-25T07:20:59Z,2025-10-26T05:06:49Z,0
+34975,[Compiler Bug]:,621,2025-10-25T07:20:55Z,2025-10-26T05:07:04Z,0
+34960,[Compiler: suggestion] Performance improvement: Replace template literals with single quotes for static strings,1223,2025-10-23T15:45:35Z,2025-10-23T16:53:44Z,1
+34944,"Bug: Form submitter is missing, if form includes input with name 'id'",1486,2025-10-22T12:37:38Z,2025-12-18T10:34:17Z,4
+34943,Screen reader is incorrectly announcing table information on the whole tile section in windows.,1380,2025-10-22T09:16:54Z,2026-04-16T08:38:33Z,3
+34942,[DevTools Bug]: React Developer Tools extension causes rendering exception,1689,2025-10-22T08:10:53Z,2026-01-28T08:08:37Z,3
+34941,Bug: eslint-plugin-react-hooks treat `use` as a react hook,383,2025-10-22T06:46:54Z,2025-10-22T06:52:42Z,0
+34939,Bug: Dev hydration false-positive for equivalent class token sets,4030,2025-10-22T05:26:52Z,2026-01-27T07:11:10Z,3
+34936,Consider Adopting NPM Trusted Publishing,1348,2025-10-22T01:37:02Z,2026-01-27T06:09:36Z,3
+34934,Bug: Unable to run `yarn build` on the newest main,1111,2025-10-21T17:21:26Z,2026-03-20T14:19:40Z,5
+34930,Signal & Observable [Updated],7582,2025-10-20T20:54:08Z,2026-02-10T21:47:31Z,10
+34917,[Compiler: suggestion] Use const for strings,538,2025-10-19T23:21:33Z,2026-02-17T22:07:21Z,9
+34884,Bug: Flow definitions are missing for React 19,1185,2025-10-16T20:06:24Z,2026-03-23T12:20:22Z,4
+34863,[Compiler Todo]: function hoisting within jsx,849,2025-10-15T18:41:39Z,2026-01-21T00:27:16Z,3
+34862,Bug: eslint-plugin-react-hooks not flagging hook used as value,1018,2025-10-15T18:12:28Z,2026-01-22T10:08:28Z,3
+34857,Bug:,940,2025-10-15T07:22:38Z,2025-10-15T08:23:10Z,0
+34856,Bug:,940,2025-10-15T07:22:34Z,2025-10-15T08:23:05Z,0
+34845,Bug: eslint-plugin-react-hooks@7.0.0 default export type is wrong when used in a module,1522,2025-10-14T19:44:31Z,2025-10-30T16:34:14Z,3
+34840,Bug: `react-dom-client.development.js` tries to read `$$typeof` on iframe object,911,2025-10-14T06:12:50Z,2026-02-03T16:53:47Z,7
+34835,Bug: Template HTML element causes hydration issue,2350,2025-10-13T18:34:59Z,2026-01-22T05:12:09Z,5
+34834,Bug: ESLint rules flag Date.now as an inpure function in a server component,1037,2025-10-13T17:50:47Z,2026-05-06T09:51:33Z,7
+34826,Bug: react-hooks/immutability wrong detect bug,1229,2025-10-13T02:12:41Z,2025-10-14T17:17:00Z,3
+34818,Bug: Stale closures with `useEffectEvent`,1827,2025-10-12T10:55:35Z,2025-10-13T15:58:44Z,3
+34802,Bug:,940,2025-10-10T16:22:21Z,2025-10-15T21:11:21Z,1
+34801,Bug: eslint-plugin-react-hooks has wrong d.ts after upgrade from 5 to 6/7,474,2025-10-10T13:44:20Z,2025-10-24T16:58:03Z,26
+34795,[Compiler Bug]: Improve readability of `react-hooks/immutability` log message,2601,2025-10-09T14:18:08Z,2025-10-23T18:30:54Z,3
+34793,Bug: `react-hooks/rules-of-hooks` does not error when `useEffectEvent` is passed down when inlined in a prop,637,2025-10-09T12:46:10Z,2025-10-16T18:18:03Z,0
+34791,Bug: “Display density” field appears twice in React Developer Tools settings,453,2025-10-09T09:50:24Z,2025-10-09T17:38:25Z,0
+34790,Bug: “Display density” field appears twice in React Developer Tools settings,361,2025-10-09T09:38:43Z,2025-10-09T09:48:49Z,0
+34788,Bug: eslint-plugin-react-hooks@7.0.0 Type 'ReactHooksFlatConfig | undefined' is not assignable to type 'InfiniteArray<ConfigWithExtends>',1061,2025-10-09T06:57:18Z,2025-10-27T07:37:32Z,2
+34785,Bug: Activity undefined,538,2025-10-09T00:56:11Z,2025-10-13T07:35:57Z,11
+34784,Bug: Esta es mi primer pregunta,940,2025-10-08T22:51:24Z,2025-10-09T15:38:16Z,0
+34781,"Bug: lint/react-compiler incorrectly reporting ""ref accessed in render"" inside map returning components",1213,2025-10-08T18:57:58Z,2025-10-15T05:31:37Z,2
+34779,Bug: eprh README eslint.config.js examples cause parsing errors,1498,2025-10-08T18:05:56Z,2026-01-14T13:18:39Z,3
+34777,Bug:  React Dev Playground | Shows Application error: a client-side exception has occurred while loading playground.react.dev,2789,2025-10-08T15:18:32Z,2025-10-13T10:04:22Z,2
+34776,Bug: eslint-react-hooks false positives on immutability rule,881,2025-10-08T15:05:46Z,2025-10-09T13:42:25Z,2
+34774,Bug:,1294,2025-10-08T14:22:31Z,2026-01-13T15:08:04Z,2
+34773,[Compiler Bug]: Please make a new release above 19.1.0.,2246,2025-10-08T11:02:46Z,2026-05-18T13:18:03Z,0
+34772,Bug: `console.timeStamp` is not a function on v19.2.0,712,2025-10-08T08:34:27Z,2025-10-09T05:36:33Z,5
+34770,Bug: Massive memory allocations using React dev build under frequent updates (prod build unaffected),3091,2025-10-08T05:09:16Z,2025-10-13T21:42:15Z,18
+34769,Bug: ViewTransition animations broken when using React Portal,4605,2025-10-08T02:43:36Z,2026-03-24T15:28:16Z,5
+34761,[Compiler Bug]: React Compiler does not compile a component if it contains a reference to Object.entries within a try block within an async function,2150,2025-10-07T13:55:32Z,2026-02-04T03:24:44Z,8
+34753,[DevTools Bug] Cannot read properties of undefined (reading 'local'),3596,2025-10-06T15:08:05Z,2025-10-08T13:04:38Z,1
+34751,Bug: RSC `renderToReadableStream/createFromReadableStream` gets stuck for certain objects on development,2010,2025-10-06T08:04:34Z,2025-10-27T21:06:30Z,0
+34750,[Compiler Bug]: Unclear preserve-manual-memoization error message.,2004,2025-10-06T07:54:04Z,2026-05-18T13:26:42Z,1
+34749,[Compiler Bug]: The compiler cannot handle callbacks which reference themselves.,1475,2025-10-06T07:38:05Z,2026-05-18T13:26:32Z,1
+34748,[Compiler Bug]: `startTransition` shouldn't be required as a dependency for `useCallback`.,2447,2025-10-06T07:24:39Z,2025-10-15T16:45:07Z,1
+34745,Bug: eslint-plugin-react-hooks@6.1.1 does not export config types correctly,1723,2025-10-06T01:07:38Z,2025-10-06T04:53:22Z,0
+34735,Bug: Cannot assign to read only property 'params' of object '#<Object>',1517,2025-10-05T02:27:17Z,2025-10-08T04:56:33Z,1
+34733,Bug: eslint-plugin-react-hooks@6.1.1 TypeError: Converting circular structure to JSON,1123,2025-10-04T14:22:19Z,2025-10-28T16:56:42Z,16
+34730,Bug: useEffect fails to fire for every render under extreme conditions,2868,2025-10-04T09:29:11Z,2026-01-09T18:09:02Z,5
+34729,Bug: Using the new <Activity> component inside AnimatePresence (Framer Motion),1248,2025-10-04T07:14:31Z,2026-02-10T13:34:16Z,4
+34727,RSC SSR performance,3679,2025-10-03T21:44:40Z,2026-01-12T13:19:07Z,3
+34711,[DevTools Bug] Cannot read properties of undefined (reading 'local'),3802,2025-10-03T09:35:26Z,2025-10-15T02:38:06Z,3
+34708,Bug:,940,2025-10-03T05:08:35Z,2025-10-03T16:03:27Z,0
+34705,Bug: eslint-plugin-react-hooks@6.1.0 does not export config types,2125,2025-10-03T02:29:34Z,2025-10-03T22:58:17Z,5
+34701,Bug: Support Zod v4 in eslint-plugin-react-hooks,1803,2025-10-02T21:37:46Z,2025-10-03T22:56:39Z,1
+34693,Bug: OOM when passing reference to big Uint8Array as component props,728,2025-10-02T18:30:48Z,2025-10-05T23:13:24Z,7
+34686,Bug: eslint-plugin-react-hooks installes unmaintained @babel/plugin-proposal-private-methods,637,2025-10-02T15:19:22Z,2025-10-03T22:09:37Z,3
+34685,Bug: Intl.NumberFormat returns incorrect thousand separators,963,2025-10-02T13:29:40Z,2025-10-02T14:52:29Z,0
+34680,[Compiler Bug/Discussion]: `react-hooks/preserve-manual-memoization` Questions,4710,2025-10-02T05:26:33Z,2025-10-03T23:13:37Z,2
+34679,Bug: eslint-plugin-react-hooks v.6.1.0 recommended config uses array instead of object,2944,2025-10-02T04:50:27Z,2025-10-02T22:52:53Z,24
+34678,[Workflow v3.0 Test] Real-time Chat App Project Validation,1024,2025-10-02T02:54:35Z,2025-10-02T14:55:06Z,0
+34670,Test from Workflow System v3.0,231,2025-10-01T19:06:20Z,2025-10-01T19:22:53Z,1
+34662,Bug: ViewTransition can stall transitions for ~60s,74,2025-09-30T21:04:19Z,2025-10-02T01:58:14Z,0
+34647,[Compiler Bug]: Please fix `eslint-plugin-react-hooks`,3347,2025-09-29T10:27:59Z,2025-10-04T18:38:42Z,3
+34636,Illegal Constructor error if ViewTransition is not imported,315,2025-09-28T18:31:46Z,2026-01-04T07:07:02Z,2
+34632,Bug: react-hooks/incompatible-library not found,4026,2025-09-28T13:13:38Z,2025-10-05T15:56:01Z,2
+34628,Bug:,940,2025-09-27T21:13:25Z,2025-09-28T00:27:03Z,0
+34622,[playground]: Syntax error crashes playground,1134,2025-09-27T14:58:11Z,2025-10-09T19:02:57Z,2
+34618,Bug:,3609,2025-09-26T20:24:57Z,2025-10-04T18:39:04Z,1
+34603,[DevTools Bug] Cannot read properties of undefined (reading 'length'),3674,2025-09-25T17:56:06Z,2025-10-13T10:10:01Z,4
+34600,"[DevTools Bug] Cannot add child ""43538"" to parent ""35533"" because parent node was not found in the Store.",1101,2025-09-25T14:23:35Z,2025-10-12T13:03:09Z,2
+34598,Bug: ExhaustiveDeps issues for useId,1910,2025-09-25T10:57:01Z,2025-12-31T11:05:34Z,2
+34581,Bug: RDT commonly fails to find source,1077,2025-09-24T04:02:37Z,2026-01-16T04:20:01Z,12
+34573,Bug:,940,2025-09-23T22:59:31Z,2025-09-24T00:48:46Z,0
+34572,Bug:,940,2025-09-23T22:59:27Z,2025-09-24T00:48:59Z,0
+34571,Bug:Mohand,940,2025-09-23T22:59:23Z,2025-09-24T00:48:37Z,0
+34554,Bug: Prototype Pollution via vulnerable minimist version,2047,2025-09-22T16:50:26Z,2025-12-30T10:06:22Z,3
+34553,Bug: Internal React error: Expected static flag was missing al renderizar SVG dinámico,2557,2025-09-22T12:18:01Z,2025-12-31T13:15:17Z,6
+34541,Bug:,940,2025-09-20T05:47:22Z,2025-09-20T05:50:56Z,0
+34530,Bug: Improve clarity of “Objects are not valid as a React child” error message,896,2025-09-19T14:55:23Z,2025-12-30T20:06:18Z,3
+34526,Bug: React roots are announced as clickable to screen readers [ Please reopen Issue #20895 ],2734,2025-09-18T17:21:35Z,2025-09-18T19:17:07Z,1
+34519,[Compiler] Reading external mutable state,1671,2025-09-17T20:43:30Z,2025-10-05T16:07:59Z,7
+34515,I can't use React DevTools,1778,2025-09-17T11:34:55Z,2025-12-12T04:39:36Z,3
+34491,increase NESTED_UPDATE_LIMIT?,808,2025-09-15T12:11:41Z,2025-09-17T09:53:01Z,6
+34490,666,3,2025-09-15T10:55:38Z,2025-09-15T16:47:19Z,0
+34489,en-dash in filenames,863,2025-09-15T10:20:32Z,2025-12-21T11:04:46Z,2
+34487,Bug: Migrating from eslint-plugin-react-compiler to eslint-plugin-react-hooks failed.,2317,2025-09-15T02:41:42Z,2025-09-15T03:00:40Z,2
+34485,Bug: Controlled input resets unexpectedly with Japanese IME (full-width alphanumeric) on Windows 10,2433,2025-09-14T05:59:56Z,2025-12-30T08:08:09Z,4
+34484,Bug: Expected static flag was missing,528,2025-09-14T02:51:11Z,2025-12-20T04:09:34Z,2
+34479,Bug: Anonymizer Script Crashes and Inconsistent Behavior (compiler/scripts/anonymize.js),1227,2025-09-13T14:31:28Z,2025-09-13T15:32:30Z,2
+34453,"Bug: New use hook with Promsie is not resolving, wrapped in Suspense it always shows fallback",1933,2025-09-10T08:57:34Z,2025-09-10T12:05:51Z,0
+34418,[Compiler Bug]: Modifying a value returned from a hook is not allowed.,2461,2025-09-08T12:23:18Z,2025-09-09T21:09:01Z,4
+34417,"const App = () => {     const [isHovered, setIsHovered] = useState(false);     const ref = useRef();     useEffect(() => {         /* [...] */     }, [{ ref }]); }",915,2025-09-08T04:25:14Z,2025-09-08T06:22:19Z,0
+34416,Bug: webview tag not properly rendering allowpopups boolean attribute?,1282,2025-09-07T21:03:26Z,2025-12-15T13:18:25Z,6
+34414,"Code khó đọc quá, đọc xong thấy muốn khóc… Wow, Your code is so clean and elegant!",940,2025-09-07T09:24:57Z,2025-09-07T09:25:39Z,0
+34411,Expose Bluesky account to the Fediverse,519,2025-09-06T20:03:15Z,2025-09-06T20:05:20Z,1
+34408,Bug: Different Behaivor between useTransition and useDeferredValue,949,2025-09-06T16:27:00Z,2026-01-02T11:05:31Z,8
+34398,Bug: Potential React 19.1.1 regression bug (ISO date strings in nested objects),1662,2025-09-05T14:25:14Z,2025-12-11T21:06:09Z,6
+34383,Bug:,940,2025-09-04T16:55:37Z,2025-09-04T17:11:39Z,0
+34382,Bug: jsdom issues with React 19.1.1,264,2025-09-04T15:07:22Z,2025-12-11T06:09:19Z,2
+34369,[Compiler]: Invocation of hook at specific position breaks memoization,1574,2025-09-03T12:58:39Z,2025-12-11T06:09:20Z,6
+34367,Bug: Output,940,2025-09-03T09:40:02Z,2026-04-25T00:39:38Z,4
+34366,eslint-plugin-react-hooks needs dependency on zod ^3.25.0 or later,727,2025-09-03T06:52:57Z,2026-04-12T20:11:19Z,7
+34358,[Compiler Bug]: `TSInstantiationExpression` as default value in parameter list,1347,2025-09-01T15:11:49Z,2026-01-26T05:06:27Z,7
+34356,Bug: Error: Expected a suspended thenable. digest: '2227452506' and '1572604020',3332,2025-09-01T14:18:05Z,2025-12-08T18:08:26Z,6
+34353,Bug:,644,2025-08-31T13:41:14Z,2025-12-08T18:08:28Z,2
+34349,[Enhancement] Add option to prevent fallback to client-side execution when using `use()`,1267,2025-08-30T14:55:26Z,2026-03-11T06:20:46Z,4
+34339,React 19.1.1 slows down rendering (~5s) with DevTools open and Playwright headful tests,981,2025-08-29T11:00:01Z,2026-01-12T15:08:08Z,11
+34337,"[DevTools Bug] Could not find node with id ""250"" in commit tree",3285,2025-08-29T08:38:04Z,2026-02-07T22:13:09Z,2
+34334,Add developer tools integration,151,2025-08-29T03:39:52Z,2025-08-29T04:23:00Z,0
+34333,Implement error boundary improvements,157,2025-08-29T03:39:51Z,2025-08-29T04:23:06Z,0
+34332,Add performance monitoring hooks,152,2025-08-29T03:39:49Z,2025-08-29T04:23:12Z,0
+34328,Update CodeSandbox CI to Node 20 to match .nvmrc,642,2025-08-28T17:17:46Z,2025-08-28T22:33:13Z,0
+34324,Bug: TaintRegistryPendingRequests is undefined when using react-markup,785,2025-08-28T10:07:54Z,2025-12-08T18:08:31Z,2
+34317,[DevTools Bug] Failed to construct 'URL': Invalid base URL,3179,2025-08-27T14:56:09Z,2025-10-08T13:05:49Z,1
+34311,[Compiler Bug]: errors when the `this` type is declared in a function,1058,2025-08-27T07:37:01Z,2025-08-27T21:58:45Z,3
+34309,Bug:,940,2025-08-27T06:17:00Z,2025-08-27T14:40:55Z,0
+34308,[Compiler Bug]:,1378,2025-08-26T20:48:43Z,2025-08-27T14:39:55Z,4
+34307,"Bug: re-ordering components with stable keys invalidates refs/state, since 19.0.0",2666,2025-08-26T20:32:55Z,2026-03-11T06:20:48Z,10
+34290,A jaký je Váš názor?,102,2025-08-25T15:35:51Z,2025-08-25T17:16:02Z,0
+34289,Middle ground between React Compiler and manual `useMemo`s,4857,2025-08-25T13:33:02Z,2025-10-03T23:12:18Z,4
+34286,"I attempted to use react - devtools, but it failed.",549,2025-08-25T07:25:27Z,2025-12-01T17:07:09Z,3
+34285,[Proposal] Align suspense behavior,12069,2025-08-25T06:25:33Z,2025-12-01T17:07:10Z,4
+34282,[Compiler Bug]:,1312,2025-08-23T16:43:37Z,2025-08-23T22:26:39Z,1
+34281,[Compiler Bug]:,1312,2025-08-23T16:43:31Z,2025-08-23T22:26:57Z,1
+34280,https://github.com/facebook/react/issues/new/choose,1312,2025-08-23T16:43:23Z,2025-08-23T22:27:10Z,0
+34279,Bug: eslint-plugin-react-hooks error with Flow component syntax,1163,2025-08-22T23:43:53Z,2025-08-25T18:36:32Z,6
+34278,"[Compiler Bug]: `ref.current === undefined`, `!ref.current` are not allowed",2081,2025-08-22T23:15:31Z,2025-09-17T20:11:57Z,4
+34268,[DevTools Bug]: devtools does not works on null origin(sandbox),2572,2025-08-22T14:01:47Z,2026-01-13T16:49:51Z,3
+34261,[Compiler Bug]: The “one or more React ESLint rules were disabled” check is too aggressive,1791,2025-08-21T23:24:19Z,2026-02-02T05:23:55Z,8
+34259,Bug: in dev mode the dispose function is applied to incorrect state,2141,2025-08-21T22:18:08Z,2025-12-01T17:07:16Z,2
+34250,Bug: actQueue forever growing in react 19.0.0,1217,2025-08-21T12:57:34Z,2026-01-03T10:05:51Z,11
+34247,CORS Solved,0,2025-08-21T01:21:23Z,2025-08-21T02:16:58Z,0
+34216,Bug:,940,2025-08-16T10:23:27Z,2025-08-16T10:27:26Z,0
+34214,This should fail due to permission restrictions,66,2025-08-16T01:24:12Z,2025-08-16T01:42:30Z,0
+34211,[Compiler Bug]: breaks referencial stability in @tanstack/react-query,1413,2025-08-15T19:29:36Z,2025-08-20T18:14:39Z,5
+34204,Bug: `react@19` renders always `null` with `react-test-renderer@19` ,2047,2025-08-15T07:15:27Z,2025-08-19T08:06:57Z,1
+34202,[Compiler]: Memoization not applying,2194,2025-08-14T17:42:35Z,2025-08-27T22:37:42Z,13
+34195,[DevTools Bug]: No highlighting on modal `<dialog>` elements,1104,2025-08-13T12:04:32Z,2025-08-29T14:46:01Z,1
+34180,[Compiler Bug]: atomic.ai,706,2025-08-12T01:01:19Z,2025-08-12T01:05:22Z,2
+34179,Bug:,2282,2025-08-12T00:53:04Z,2025-08-12T00:54:34Z,1
+34178,Bug:,940,2025-08-12T00:50:20Z,2025-08-12T01:05:56Z,0
+34177,Bug:,940,2025-08-12T00:50:13Z,2025-08-12T01:06:05Z,0
+34172,[Compiler Bug]: Memoization: Compilation skipped because existing memoization could not be preserved,1533,2025-08-11T18:36:40Z,2026-03-20T18:44:41Z,15
+34160,Bug: Failed to pipe response in nextjs,1369,2025-08-10T14:14:41Z,2025-08-10T14:22:59Z,0
+34138,"[DevTools Bug] Cannot remove node ""10"" because no matching node was found in the Store.",1446,2025-08-08T19:35:58Z,2025-10-12T13:03:04Z,2
+34132,[DevTools Bug]: The link that points to the master branch should point to the main branch instead,1010,2025-08-08T16:08:15Z,2025-10-08T13:14:26Z,1
+34131,[Compiler Bug]: (BuildHIR::lowerStatement) Handle TryStatement with a finalizer ('finally') clause,1523,2025-08-08T13:08:43Z,2025-08-08T21:47:31Z,8
+34128,"[DevTools Bug] Cannot add node ""1"" because a node with that id is already in the Store.",1027,2025-08-07T14:26:11Z,2025-10-12T13:02:46Z,8
+34111,"Bug: ""Internal React error: Expected static flag was missing.""",3873,2025-08-05T06:53:15Z,2025-11-10T08:08:02Z,2
+34110,Bug:,940,2025-08-05T06:32:03Z,2025-08-05T07:01:36Z,2
+34109,Bug: Troy Wilson Landry,940,2025-08-05T06:32:00Z,2025-08-05T07:00:54Z,0
+34108,[Compiler Bug]: Compiler introduces unnecessary breaks that skips its own memoization,1274,2025-08-05T02:20:05Z,2025-09-04T00:44:43Z,2
+34098,Bug: `Transition was aborted because of invalid state` when browser tab not active,2154,2025-08-04T06:59:51Z,2025-09-10T13:07:12Z,5
+34092,There's a lot of content on this but I'm confused 😵‍💫. The eslint rule `react-hooks/exhaustive-deps` throws a warning when we put nested properties from hook-returned objects into the dependency array.,1397,2025-08-04T00:30:35Z,2025-08-05T01:07:54Z,5
+34087,Bug:,940,2025-08-03T14:49:08Z,2025-08-03T16:45:11Z,0
+34079,"Bug: renderToStaticMarkup fails with client-side code, suggesting a server-only context limitation",1745,2025-08-01T16:07:15Z,2025-11-07T08:07:42Z,3
+34077,[Compiler Bug]: False positive memoization for spead/rest props,1200,2025-08-01T10:06:06Z,2025-08-01T18:24:36Z,1
+34074,"Bug: ESLint react-hooks/rules-of-hooks: false positive `XXX` is a function created with React Hook ""useEffectEvent"", and can only be called from the same component",777,2025-08-01T07:30:33Z,2025-10-30T12:04:47Z,4
+34071,Bug: React 18 vs 19 callback refs,1548,2025-07-31T15:39:09Z,2025-12-08T18:08:37Z,8
+34061,Bug:  eager state miss,2517,2025-07-31T02:35:50Z,2025-11-05T03:24:37Z,2
+34057,Adding `sideEffects: false` to package.json,410,2025-07-30T22:02:15Z,2026-02-04T05:22:50Z,5
+34056,[Compiler Bug]:,598,2025-07-30T15:39:08Z,2025-07-30T16:45:44Z,0
+34054,Using `use()` as name for custom hooks,3110,2025-07-30T11:19:06Z,2025-08-05T07:04:04Z,2
+34053,Bug: Java object is gone Instagram/ Facebook Webview,493,2025-07-30T06:21:55Z,2026-02-15T03:53:44Z,12
+34048,"Question about ""calling an impure function can produce unstable results..."" lint",1483,2025-07-29T21:07:25Z,2026-02-09T23:14:52Z,12
+34038,Bug: `<dialog>` onClose and onCancel events bubbling,2064,2025-07-29T10:47:09Z,2025-11-22T18:06:41Z,4
+34019,Bug: react-dom/client does not provide an export named 'createRoot',980,2025-07-28T13:38:23Z,2025-07-29T09:25:18Z,2
+34018,[Compiler Bug]: Inconsistent errors between React Compiler Playground and latest experimental npm package,3542,2025-07-28T10:18:28Z,2025-07-29T22:45:04Z,7
+34014,[Compiler Bug]:  Compiler does not optimize functions unless manually memoized,2457,2025-07-27T11:13:22Z,2025-07-28T01:26:08Z,4
+34011,Bug: Issue in the sidebar components with still using hsl,1666,2025-07-26T15:12:32Z,2025-11-10T08:08:03Z,6
+34009,Bug: Too much uncessary scrolling,48,2025-07-26T04:55:54Z,2025-07-27T22:30:08Z,2
+34008,Bug: [React 19] Script tags not executing when embedded in components.,3303,2025-07-26T02:14:49Z,2026-05-03T06:55:56Z,13
+34007,Bug: Improve error message when function is passed as JSX child,1779,2025-07-25T23:41:53Z,2025-10-31T01:33:21Z,2
+33978,[Compiler Bug]: Component defined inside function cause incorrect optimization,1826,2025-07-24T08:17:01Z,2025-08-27T17:59:27Z,1
+33974,Bug: ,940,2025-07-23T17:23:11Z,2025-08-07T21:21:03Z,0
+33967,"Bug: Exception thrown by Error Boundary after production build in React 19, not visible in UI but reported via monitoring",1679,2025-07-22T19:45:44Z,2025-10-28T18:08:06Z,3
+33966,Bug:,940,2025-07-22T19:00:18Z,2025-07-22T19:00:23Z,0
+33939,Bug: [React 19] Suspense fallback with periodic state updates causes suspense children with slow render functions to never show,1951,2025-07-18T07:07:15Z,2026-01-23T03:34:55Z,9
+33937,Bug: `React.use` inside `React.lazy`-ed component returns other `React.use` value on SSR,2883,2025-07-18T00:42:48Z,2025-07-28T08:36:09Z,5
+33936,Update webpack-manifest-plugin from ^4.0.2 to 5.0.1,720,2025-07-17T22:50:58Z,2025-07-19T01:49:25Z,0
+33935,Update webpack-dev-middleware from ^5.3.4 to 7.4.2,703,2025-07-17T22:50:57Z,2025-07-19T02:15:16Z,1
+33934,Update undici from ^5.20.0 to 7.11.0,666,2025-07-17T22:50:56Z,2025-07-19T02:15:18Z,4
+33933,Update tailwindcss from ^3.0.2 to 4.1.11,695,2025-07-17T22:50:56Z,2025-07-19T02:15:20Z,1
+33932,Update style-loader from ^3.3.1 to 4.0.0,676,2025-07-17T22:50:55Z,2025-07-19T02:15:22Z,1
+33931,Update source-map-loader from ^3.0.0 to 5.0.0,712,2025-07-17T22:50:54Z,2025-07-19T02:15:24Z,1
+33930,Update sass-loader from ^12.3.0 to 16.0.5,668,2025-07-17T22:50:54Z,2025-07-19T02:15:27Z,1
+33929,Update resolve-url-loader from ^4.0.0 to 5.0.0,790,2025-07-17T22:50:53Z,2025-07-19T02:15:29Z,1
+33928,Update postcss-preset-env from ^7.0.1 to 10.2.4,757,2025-07-17T22:50:51Z,2025-07-19T02:15:31Z,1
+33927,Update postcss-normalize from ^10.0.1 to 13.0.1,741,2025-07-17T22:50:51Z,2025-07-19T02:15:33Z,1
+33926,Update postcss-loader from ^6.2.1 to 8.1.1,677,2025-07-17T22:50:50Z,2025-07-19T02:15:35Z,1
+33925,Update nodemon from ^2.0.19 to 3.1.10,675,2025-07-17T22:50:50Z,2025-07-19T02:15:37Z,1
+33924,Update jest-watch-typeahead from ^1.0.0 to 3.0.1,718,2025-07-17T22:50:49Z,2025-07-19T02:15:39Z,1
+33923,Update jest-resolve from ^27.4.2 to 30.0.2,564,2025-07-17T22:50:48Z,2025-07-19T02:15:42Z,1
+33922,Update jest from ^27.4.3 to 30.0.4,633,2025-07-17T22:50:48Z,2025-07-19T02:15:44Z,1
+33921,Update fs-extra from ^10.0.0 to 11.3.0,762,2025-07-17T22:50:47Z,2025-07-19T02:15:46Z,1
+33920,Update dotenv-expand from ^5.1.0 to 12.0.2,691,2025-07-17T22:50:46Z,2025-07-19T02:15:48Z,1
+33919,Update dotenv from ^10.0.0 to 17.2.0,672,2025-07-17T22:50:46Z,2025-07-19T02:15:51Z,1
+33918,Update css-minimizer-webpack-plugin from ^3.2.0 to 7.0.2,736,2025-07-17T22:50:45Z,2025-07-19T02:15:53Z,1
+33917,Update css-loader from ^6.5.1 to 7.1.2,668,2025-07-17T22:50:45Z,2025-07-19T02:15:55Z,1
+33916,Update concurrently from ^7.3.0 to 9.2.0,676,2025-07-17T22:50:44Z,2025-07-19T02:15:58Z,1
+33915,Update camelcase from ^6.2.1 to 8.0.0,741,2025-07-17T22:50:43Z,2025-07-19T02:16:00Z,1
+33914,Update body-parser from ^1.20.1 to 2.2.0,675,2025-07-17T22:50:42Z,2025-07-19T02:16:02Z,1
+33913,Update babel-loader from ^8.2.3 to 10.0.0,668,2025-07-17T22:50:42Z,2025-07-19T02:16:05Z,1
+33912,Update babel-jest from ^27.4.2 to 30.0.4,624,2025-07-17T22:50:41Z,2025-07-19T02:16:07Z,1
+33911,Update @testing-library/user-event from ^13.2.1 to 14.6.1,721,2025-07-17T22:50:41Z,2025-07-19T02:16:09Z,1
+33910,Update @testing-library/react from ^13.0.0 to 16.3.0,770,2025-07-17T22:50:40Z,2025-07-19T02:16:11Z,1
+33909,Update @testing-library/jest-dom from ^5.14.1 to 6.6.3,724,2025-07-17T22:50:39Z,2025-07-19T02:16:13Z,1
+33908,Update @svgr/webpack from ^5.5.0 to 8.1.0,642,2025-07-17T22:50:39Z,2025-07-19T02:16:15Z,1
+33907,Update express from ^4.18.2 to 5.1.0,656,2025-07-17T22:50:36Z,2025-07-19T02:16:18Z,1
+33906,Update concurrently from ^7.3.0 to 9.2.0,676,2025-07-17T22:50:35Z,2025-07-19T02:16:20Z,1
+33905,Update @types/node from ^22.10.1 to 24.0.14,706,2025-07-17T22:50:35Z,2025-07-19T02:16:22Z,1
+33904,Update undici from ^5.20.0 to 7.11.0,666,2025-07-17T22:50:33Z,2025-07-19T02:16:26Z,1
+33903,Update nodemon from ^2.0.19 to 3.1.10,675,2025-07-17T22:50:32Z,2025-07-19T02:16:28Z,1
+33902,Update concurrently from ^7.3.0 to 9.2.0,676,2025-07-17T22:50:31Z,2025-07-19T02:16:31Z,1
+33901,Update body-parser from ^1.20.1 to 2.2.0,675,2025-07-17T22:50:31Z,2025-07-19T02:16:33Z,1
+33900,Update prettier from 1.19.1 to 3.6.2,650,2025-07-17T22:50:30Z,2025-07-19T02:16:36Z,1
+33899,Update webpack-cli from ^4.2.0 to 6.0.1,692,2025-07-17T22:50:29Z,2025-07-19T02:16:38Z,1
+33898,Update webpack from 4.44.2 to 5.100.2,865,2025-07-17T22:50:28Z,2025-07-19T02:16:40Z,1
+33897,Update rimraf from ^3.0.2 to 6.0.1,672,2025-07-17T22:50:28Z,2025-07-19T02:16:42Z,1
+33896,Update react-error-boundary from ^3.1.3 to 6.0.0,714,2025-07-17T22:50:27Z,2025-07-19T02:16:44Z,1
+33895,Update nodemon from ^2.0.6 to 3.1.10,674,2025-07-17T22:50:27Z,2025-07-19T02:16:47Z,1
+33894,Update express from ^4.17.1 to 5.1.0,656,2025-07-17T22:50:26Z,2025-07-19T02:16:49Z,1
+33893,Update concurrently from ^5.3.0 to 9.2.0,676,2025-07-17T22:50:26Z,2025-07-19T02:16:51Z,1
+33892,Update babel-loader from 8.1.0 to 10.0.0,667,2025-07-17T22:50:25Z,2025-07-19T02:16:53Z,1
+33891,Update react-scripts from 0.9.5 to 5.0.1,697,2025-07-17T22:50:24Z,2025-07-19T02:16:55Z,1
+33890,Update react-draggable from ^2.2.6 to 4.5.0,681,2025-07-17T22:50:23Z,2025-07-19T02:16:57Z,1
+33889,Update pretty-format from ^4.2.1 to 30.0.2,616,2025-07-17T22:50:23Z,2025-07-19T02:17:00Z,1
+33888,Update react-scripts from 1.0.17 to 5.0.1,698,2025-07-17T22:50:22Z,2025-07-19T02:17:02Z,1
+33887,Update react-dom from ^16.1.1 to 19.1.0,652,2025-07-17T22:50:21Z,2025-07-19T02:17:04Z,1
+33886,Update react from ^16.1.1 to 19.1.0,664,2025-07-17T22:50:21Z,2025-07-19T02:17:06Z,1
+33885,Update eslint from ^8 to 9.31.0,646,2025-07-17T22:50:19Z,2025-07-19T02:17:09Z,1
+33884,Update eslint from ^7 to 9.31.0,646,2025-07-17T22:50:19Z,2025-07-19T02:17:11Z,1
+33883,Update eslint from ^6 to 9.31.0,646,2025-07-17T22:50:18Z,2025-07-19T02:17:13Z,1
+33882,Update react-scripts from ^1.0.11 to 5.0.1,699,2025-07-17T22:50:17Z,2025-07-19T02:17:35Z,2
+33881,Update semver from ^5.5.0 to 7.7.2,667,2025-07-17T22:50:17Z,2025-07-19T02:17:37Z,1
+33880,Update query-string from ^4.2.3 to 9.2.2,686,2025-07-17T22:50:16Z,2025-07-19T02:17:40Z,1
+33879,Update jest-diff from ^29.4.1 to 30.0.4,558,2025-07-17T22:50:15Z,2025-07-19T02:17:42Z,1
+33878,Update core-js from ^2.4.1 to 3.44.0,648,2025-07-17T22:50:15Z,2025-07-19T02:17:44Z,1
+33877,Update codemirror from ^5.40.0 to 6.0.2,693,2025-07-17T22:50:14Z,2025-07-19T02:17:46Z,1
+33876,Update victory from ^0.25.6 to 37.3.6,658,2025-07-17T22:50:13Z,2025-07-19T02:17:48Z,1
+33875,Update react-scripts from ^1.1.4 to 5.0.1,698,2025-07-17T22:50:12Z,2025-07-19T02:17:50Z,1
+33874,Update react-markdown from ^3.2.0 to 10.1.0,687,2025-07-17T22:50:12Z,2025-07-19T02:17:52Z,1
+33873,Update react-dom from 0.0.0-experimental-269dd6ec5 to 19.1.0,673,2025-07-17T22:50:11Z,2025-07-19T02:17:54Z,1
+33872,Update react from 0.0.0-experimental-269dd6ec5 to 19.1.0,685,2025-07-17T22:50:10Z,2025-07-19T02:17:56Z,1
+33871,Update react-scripts from 1.0.11 to 5.0.1,698,2025-07-17T22:50:09Z,2025-07-19T02:17:58Z,1
+33870,Update react-dom from ^15.6.1 to 19.1.0,652,2025-07-17T22:50:09Z,2025-07-19T02:18:00Z,1
+33869,Update react from ^15.6.1 to 19.1.0,664,2025-07-17T22:50:08Z,2025-07-19T02:18:02Z,2
+33868,Update file-saver from ^1.3.3 to 2.0.5,682,2025-07-17T22:50:08Z,2025-07-19T02:18:04Z,1
+33867,Update webpack from ^1.14.0 to 5.100.2,866,2025-07-17T22:50:07Z,2025-07-19T02:18:06Z,1
+33866,Update babel-loader from ^8.1.0 to 10.0.0,668,2025-07-17T22:50:06Z,2025-07-19T02:18:08Z,1
+33865,Update @typescript-eslint/parser from ^7.4.0 to 8.37.0,727,2025-07-17T22:50:04Z,2025-07-19T02:18:10Z,1
+33864,Update @typescript-eslint/eslint-plugin from ^7.4.0 to 8.37.0,719,2025-07-17T22:50:03Z,2025-07-19T02:18:12Z,1
+33863,Update @types/node from ^18.7.18 to 24.0.14,706,2025-07-17T22:50:02Z,2025-07-19T02:18:14Z,1
+33862,Update @types/glob from ^8.1.0 to 9.0.0,792,2025-07-17T22:50:01Z,2025-07-19T02:18:42Z,1
+33861,Update yargs from ^17.7.1 to 18.0.0,663,2025-07-17T22:49:59Z,2025-07-19T02:18:44Z,1
+33860,Update react-dom from 0.0.0-experimental-4beb1fd8-20241118 to 19.1.0,681,2025-07-17T22:49:58Z,2025-07-19T02:18:45Z,1
+33859,Update react from 0.0.0-experimental-4beb1fd8-20241118 to 19.1.0,693,2025-07-17T22:49:57Z,2025-07-19T02:18:48Z,1
+33858,Update jsdom from ^22.1.0 to 26.1.0,673,2025-07-17T22:49:57Z,2025-07-19T02:18:49Z,1
+33857,Update glob from ^10.3.10 to 11.0.3,697,2025-07-17T22:49:56Z,2025-07-19T02:18:52Z,1
+33856,Update chalk from 4 to 5.4.1,650,2025-07-17T22:49:55Z,2025-07-19T02:18:53Z,1
+33855,Update @testing-library/react from ^13.4.0 to 16.3.0,770,2025-07-17T22:49:54Z,2025-07-19T02:18:55Z,1
+33854,Update jest from ^29.7.0 to 30.0.4,633,2025-07-17T22:49:52Z,2025-07-19T02:18:57Z,1
+33853,Update @types/jest from ^29.5.14 to 30.0.0,704,2025-07-17T22:49:51Z,2025-07-19T02:18:59Z,1
+33852,Update zod from ^3.23.8 to 4.0.5,681,2025-07-17T22:49:51Z,2025-07-19T02:19:01Z,1
+33851,Update yargs from ^17.7.2 to 18.0.0,663,2025-07-17T22:49:46Z,2025-07-19T02:19:02Z,1
+33850,Update @types/node from ^20 to 24.0.14,701,2025-07-17T22:49:45Z,2025-07-19T02:19:04Z,1
+33849,Update zod from ^3.22.4 to 4.0.5,681,2025-07-17T22:49:42Z,2025-07-19T02:19:06Z,1
+33848,Update yargs from ^17.7.2 to 18.0.0,663,2025-07-17T22:49:42Z,2025-07-19T02:19:08Z,1
+33847,Update ora from 5.4.1 to 8.2.0,645,2025-07-17T22:49:41Z,2025-07-19T02:19:09Z,1
+33846,Update chalk from 4 to 5.4.1,650,2025-07-17T22:49:40Z,2025-07-19T02:19:12Z,1
+33845,Update ts-jest from ^28.0.7 to 29.4.0,731,2025-07-17T22:49:39Z,2025-07-19T02:19:14Z,1
+33844,Update jest from ^28.1.3 to 30.0.4,633,2025-07-17T22:49:39Z,2025-07-19T02:19:16Z,1
+33843,Update @types/node from ^20.2.5 to 24.0.14,705,2025-07-17T22:49:38Z,2025-07-19T02:19:18Z,1
+33842,Update @types/jest from ^28.1.6 to 30.0.0,703,2025-07-17T22:49:37Z,2025-07-19T02:19:20Z,1
+33841,Update pretty-format from ^24 to 30.0.2,613,2025-07-17T22:49:36Z,2025-07-19T02:19:21Z,1
+33840,Update jest from ^29.5.0 to 30.0.4,633,2025-07-17T22:49:36Z,2025-07-19T02:19:23Z,1
+33839,Update eslint from 8.57.0 to 9.31.0,650,2025-07-17T22:49:35Z,2025-07-19T02:19:25Z,1
+33838,Update babel-jest from ^29.0.3 to 30.0.4,624,2025-07-17T22:49:35Z,2025-07-19T02:19:27Z,1
+33837,Update @types/node from ^20.2.5 to 24.0.14,705,2025-07-17T22:49:34Z,2025-07-19T02:19:28Z,1
+33836,Update @types/eslint from ^8.56.12 to 9.6.1,710,2025-07-17T22:49:33Z,2025-07-19T02:19:30Z,1
+33835,Update zod from ^3.22.4 to 4.0.5,681,2025-07-17T22:49:32Z,2025-07-19T02:19:32Z,1
+33834,Update zod-validation-error from ^2.1.0 to 3.5.3,729,2025-07-17T22:49:31Z,2025-07-19T02:19:34Z,1
+33833,Update zod from ^3.22.4 to 4.0.5,681,2025-07-17T22:49:30Z,2025-07-19T02:19:36Z,1
+33832,Update react-dom from 0.0.0-experimental-4beb1fd8-20241118 to 19.1.0,681,2025-07-17T22:49:29Z,2025-07-19T02:19:56Z,1
+33831,Update react from 0.0.0-experimental-4beb1fd8-20241118 to 19.1.0,693,2025-07-17T22:49:29Z,2025-07-19T02:19:58Z,1
+33830,Update pretty-format from ^24 to 30.0.2,613,2025-07-17T22:49:28Z,2025-07-19T02:20:00Z,1
+33829,Update jest-environment-jsdom from ^29.0.3 to 30.0.4,584,2025-07-17T22:49:28Z,2025-07-19T02:20:01Z,1
+33828,Update jest from ^29.0.3 to 30.0.4,633,2025-07-17T22:49:27Z,2025-07-19T02:20:03Z,1
+33827,Update eslint from ^8.57.1 to 9.31.0,651,2025-07-17T22:49:27Z,2025-07-19T02:20:05Z,1
+33826,Update babel-jest from ^29.0.3 to 30.0.4,624,2025-07-17T22:49:26Z,2025-07-19T02:20:07Z,1
+33825,Update @types/node from ^18.7.18 to 24.0.14,706,2025-07-17T22:49:24Z,2025-07-19T02:20:09Z,1
+33824,Update @types/jest from ^29.0.3 to 30.0.0,703,2025-07-17T22:49:23Z,2025-07-19T02:20:11Z,1
+33823,Update @types/glob from ^8.1.0 to 9.0.0,792,2025-07-17T22:49:22Z,2025-07-19T02:20:13Z,1
+33822,Update @testing-library/react from ^13.4.0 to 16.3.0,770,2025-07-17T22:49:21Z,2025-07-19T02:20:14Z,1
+33821,Update yargs from ^17.7.2 to 18.0.0,663,2025-07-17T22:49:18Z,2025-07-19T02:20:16Z,1
+33820,Update wait-on from ^7.2.0 to 8.0.3,779,2025-07-17T22:49:17Z,2025-07-19T02:20:18Z,1
+33819,Update to-fast-properties from ^2.0.0 to 4.0.0,712,2025-07-17T22:49:16Z,2025-07-19T02:20:19Z,1
+33818,Update ora from 5.4.1 to 8.2.0,645,2025-07-17T22:49:15Z,2025-07-19T02:20:21Z,1
+33817,Update concurrently from ^7.4.0 to 9.2.0,676,2025-07-17T22:49:14Z,2025-07-19T02:20:23Z,1
+33816,Update react-is from 0.0.0-experimental-4beb1fd8-20241118 to 19.1.0,673,2025-07-17T22:49:13Z,2025-07-19T02:20:25Z,1
+33815,Update fs-extra from ^4.0.2 to 11.3.0,761,2025-07-17T22:49:12Z,2025-07-19T02:20:27Z,1
+33814,Update wait-on from ^7.2.0 to 8.0.3,779,2025-07-17T22:49:11Z,2025-07-19T02:20:29Z,1
+33813,Update tailwindcss from ^3.2.4 to 4.1.11,695,2025-07-17T22:49:10Z,2025-07-19T02:20:30Z,1
+33812,Update eslint from ^8.28.0 to 9.31.0,651,2025-07-17T22:49:09Z,2025-07-19T02:20:32Z,1
+33811,Update concurrently from ^7.4.0 to 9.2.0,676,2025-07-17T22:49:09Z,2025-07-19T02:20:34Z,1
+33810,Update clsx from ^1.2.1 to 2.1.1,690,2025-07-17T22:49:08Z,2025-07-19T02:20:36Z,1
+33809,Update @types/node from 18.11.9 to 24.0.14,705,2025-07-17T22:49:07Z,2025-07-19T02:20:38Z,1
+33808,Update pretty-format from ^29.3.1 to 30.0.2,617,2025-07-17T22:49:05Z,2025-07-19T02:20:39Z,1
+33807,Update @heroicons/react from ^1.0.6 to 2.2.0,909,2025-07-17T22:49:02Z,2025-07-19T02:20:41Z,1
+33805,Bug: 'use' is not exported from 'react' (imported as 'React5'),221,2025-07-17T18:42:36Z,2025-10-23T14:05:43Z,5
+33803,Bug:,940,2025-07-17T11:53:08Z,2025-08-07T21:20:49Z,0
+33802,Bug: Attempted import error: 'use' is not exported from 'react' (imported as 'React5').,1195,2025-07-17T11:03:54Z,2025-07-18T12:19:30Z,22
+33794,Bug: The UMD builds for react and react-dom are not building correctly,1727,2025-07-16T05:51:18Z,2025-12-08T18:08:39Z,9
+33793,Feature request: SimpleMemoComponent fast path for React.memo with custom arePropsEqual,810,2025-07-15T18:03:51Z,2026-04-27T20:27:57Z,10
+33789,Bug: issue solution,944,2025-07-15T03:28:50Z,2025-07-15T03:31:36Z,0
+33783,Bug: Using custom elements with createPortal() in a documentPictureInPicture window is failing,3119,2025-07-13T19:17:56Z,2025-11-03T19:04:36Z,5
+33781,[Compiler Bug]: Mutating local variable created from destructuring a prop is incorrectly detected as a prop mutation,1566,2025-07-13T00:04:56Z,2025-07-25T23:41:11Z,7
+33779,Bug: useId() causes hydration mismatch when called inside conditionally rendered loops during SSR,4994,2025-07-12T18:27:08Z,2025-08-02T07:55:02Z,3
+33764,[Compiler Bug]:,1289,2025-07-11T14:54:52Z,2026-02-06T14:50:03Z,5
+33721,RSC: Use of eval in Server Action proxy breaks HMR in V8-based runtimes,3398,2025-07-07T13:10:24Z,2025-10-13T12:09:23Z,3
+33709,Test Issue from Exposed Token,65,2025-07-05T21:46:41Z,2025-07-05T21:47:05Z,0
+33703,Bug: `react-hooks/exhaustive-deps` does more than checking deps and cannot be configured for intended behavior,1211,2025-07-04T18:46:50Z,2025-11-08T15:04:41Z,3
+33698,Bug: [React 19] React is not support Declarative Shadow DOM (DSD),2200,2025-07-04T09:28:10Z,2025-10-09T10:06:21Z,2
+33690,[Compiler Todo]: Computed Property Names in Object Initializers,1067,2025-07-03T19:47:04Z,2025-10-20T20:53:34Z,7
+33687,Obfuscated javascript popping in at the top of a localhost:3001 load.,227,2025-07-02T20:47:42Z,2025-10-14T16:06:26Z,3
+33677,Bug: WebSocket doesn't connect when called inside useEffect,1465,2025-07-01T05:26:48Z,2025-07-01T19:08:00Z,0
+33676,Feature Request: Show in DevTools which dependency triggered a useEffect,1271,2025-07-01T01:56:01Z,2025-10-06T03:19:29Z,2
+33674,Idea: create .apk and .exe files,53,2025-06-30T18:04:53Z,2025-06-30T19:54:23Z,0
+33669,Slider control does not have an accessible name in windows.,1415,2025-06-30T10:55:36Z,2025-10-05T12:07:41Z,2
+33667,Bug: input type number ignores defaultValue after clicking Enter when used with useActionState,2722,2025-06-29T19:32:00Z,2026-01-31T12:10:17Z,7
+33636,Bug: Hydration errors if useEffect+setState that modifies rendered html is not done directly in the final component.,2941,2025-06-25T10:20:05Z,2025-06-26T07:23:14Z,3
+33630,Bug: onReset is not called during automatic form reset,2263,2025-06-24T17:52:56Z,2026-02-02T20:17:15Z,4
+33615,Bug:,353,2025-06-23T08:57:19Z,2025-09-21T16:28:00Z,1
+33614,[Compiler Bug]: new mutation aliasing model incorrectly detects a frozen value mutation when mutating a set created via passing the set constructor a frozen value,1344,2025-06-22T13:45:28Z,2025-06-24T18:29:31Z,5
+33612,Bug: renderToPipeableStream is missing in Bun exports,2292,2025-06-22T12:32:24Z,2025-10-27T22:06:46Z,2
+33610,[Compiler Bug]:,1314,2025-06-22T09:59:15Z,2026-02-04T03:29:05Z,2
+33586,Bug:,2173,2025-06-21T09:44:32Z,2025-11-05T11:05:04Z,3
+33577,[Compiler Bug]: Compiler tries to assign to variables that does not exist,1438,2025-06-19T14:24:26Z,2025-06-25T18:10:10Z,2
+33556,"Bug: ""Rendered more hooks than ..."" throws when it shouldn't with multiple suspends",3583,2025-06-17T19:44:26Z,2025-08-11T10:07:57Z,3
+33542,"Bug: onSelect does not fire when contentEditable equals ""plaintext-only""",1011,2025-06-16T18:50:48Z,2025-09-28T03:21:26Z,4
+33537,Bug: Detached DOM Elements(leading memory leaks) when HTML element removed from DOM,1694,2025-06-15T10:03:39Z,2025-06-16T12:31:33Z,2
+33536,Bug: Server functions report false positive errors for MobX observables,1673,2025-06-15T01:09:51Z,2025-09-20T01:32:29Z,2
+33534,Bug: Server functions error when returning a client reference,1326,2025-06-14T21:03:18Z,2025-08-02T22:11:55Z,0
+33519,"Bug: [React Refresh] React Refresh edge case, class fields are mistakenly treated as React Component",338,2025-06-12T17:03:01Z,2025-09-17T17:04:52Z,2
+33510,Feature Request,0,2025-06-11T18:31:50Z,2025-06-11T19:38:58Z,0
+33503,Bug: React 19 - Suspense Siblings Fall Back to Sequential Loading Under Load,1552,2025-06-11T02:16:20Z,2025-06-11T22:27:28Z,1
+33498,Bug: Context.Consumer re-rendering children with unchanged context value in react 19.,2473,2025-06-10T14:34:50Z,2025-09-22T17:05:16Z,4
+33489,Bug: infinite re-renders when queueing state updates via promises during render,919,2025-06-09T21:00:34Z,2026-05-13T20:56:04Z,6
+33479,Bug: [React 18] `act` in tests can alter autobatching behavior compared to production in 18.3.1,2700,2025-06-07T09:26:45Z,2025-09-12T11:04:45Z,2
+33461,Bug: Getting 409 Error for CustomPouchError with pouchdb-browser,2282,2025-06-06T13:14:12Z,2025-09-14T10:04:32Z,3
+33460,"Bug:  In the unmount function returned by createRoot, an imprecise comparison statement causes the first unmount failed, affecting subsequent program operations.",1312,2025-06-06T07:57:45Z,2025-09-13T08:06:07Z,3
+33437,Bug: same inline styles are considered different by hydration,2233,2025-06-04T21:31:12Z,2025-12-08T18:08:42Z,8
+33435,Bug:,749,2025-06-04T11:35:07Z,2025-09-12T11:04:47Z,8
+33428,Bug: performance: `createPortal()` attaches listeners even in contained roots,915,2025-06-03T19:08:33Z,2025-12-11T06:09:26Z,8
+33423,Bug: profiler incorrectly reports 'The parent component rendered',2123,2025-06-03T16:20:59Z,2026-02-09T20:39:35Z,9
+33419,Feature Request: [react-hooks/exhaustive-deps] Add option to ignore specific values in hook dependency arrays,1952,2025-06-03T12:39:23Z,2025-09-08T18:07:13Z,2
+33418,Bug: better-auth incompatibility with react-19 regarding export of useSyncExternalStore & useRef,1049,2025-06-03T10:17:25Z,2025-10-13T17:04:59Z,5
+33417,Bug: ❤️,940,2025-06-03T07:48:15Z,2025-06-03T10:56:03Z,0
+33416,Bug:,940,2025-06-03T06:02:49Z,2025-06-03T12:33:14Z,0
+33410,Bug: useId generates invalid ids for SVG elements.,1439,2025-06-03T01:25:03Z,2025-06-10T10:50:03Z,2
+33398,Bug:,940,2025-06-01T13:39:47Z,2025-06-03T12:43:14Z,0
+33397,Bug:,940,2025-06-01T13:39:45Z,2025-06-03T10:55:59Z,1
+33396,Bug:,940,2025-06-01T13:39:41Z,2025-06-03T12:43:10Z,0
+33359,Bug:  [Error: Expected a suspended thenable. This is a bug in React. Please file an issue.] {   digest: '1832240620' },1008,2025-05-27T17:06:36Z,2025-09-01T19:04:38Z,2
+33356,Bug: salam,940,2025-05-26T16:02:27Z,2025-05-26T16:02:31Z,0
+33353,Bug:,940,2025-05-24T22:37:01Z,2025-05-25T14:04:38Z,0
+33352,Bug: renderToPipeableStream doesn't initiate streaming if the first node is a Fragment until the promise in Suspense resolves,1796,2025-05-24T20:26:57Z,2026-04-25T08:24:02Z,8
+33343,Bug: useActionState optimization too eager,2548,2025-05-22T20:13:41Z,2025-05-23T08:20:58Z,2
+33340,Navigation menu doesn't work on mobile devices,137,2025-05-22T14:47:55Z,2025-05-22T20:13:15Z,2
+33339,Authentication failure on Safari browser,250,2025-05-22T14:32:56Z,2025-05-22T20:13:14Z,0
+33338,Button component doesn't respect theme colors in dark mode,1251,2025-05-22T11:53:07Z,2025-05-22T20:13:14Z,1
+33337,Documentation Bug: useEffect hook example missing cleanup instructions,1574,2025-05-22T11:51:42Z,2025-05-22T20:13:14Z,1
+33336,Navigation bar disappears on scroll in mobile view,462,2025-05-22T11:06:03Z,2025-05-22T20:13:13Z,1
+33335,Component fails to re-render with new props,103,2025-05-22T11:02:13Z,2025-05-22T20:13:13Z,0
+33334,Feature Implementation Tracking,1637,2025-05-22T10:09:51Z,2025-05-22T20:10:48Z,0
+33333,How does Meta achieve zero-reload updates for UI in  production?,468,2025-05-22T08:46:16Z,2025-08-21T04:49:44Z,3
+33324,Question: Suspense causes zombie entities in custom renderer due premature creation,3250,2025-05-21T17:12:08Z,2025-08-26T19:04:45Z,3
+33322,"[DevTools Bug] Cannot remove node ""25"" because no matching node was found in the Store.",1063,2025-05-21T06:13:31Z,2025-10-12T13:03:25Z,7
+33319,Bug: ViewTransition enter animation not working with useOptimistic,804,2025-05-20T21:16:36Z,2025-08-26T11:05:03Z,3
+33316,Frequent Updates to README.md,652,2025-05-20T17:40:03Z,2025-05-22T20:14:32Z,0
+33292,[DevTools Bug]: UI not using full window space,623,2025-05-16T15:55:38Z,2025-05-20T09:47:54Z,4
+33226,Bug:,940,2025-05-16T02:24:28Z,2025-05-16T16:22:04Z,0
+33225,Bug:,940,2025-05-16T02:24:25Z,2025-05-16T16:22:09Z,0
+33224,Bug:,940,2025-05-16T02:06:27Z,2025-05-16T02:06:33Z,0
+33223,[Compiler]: Suppressing ref validation errors makes it unclear why code accessing refs is unmemoized,3838,2025-05-16T02:05:08Z,2025-07-29T19:09:52Z,3
+33209,[Compiler]: flags mutations of shared mutable refs and skips optimizations,1710,2025-05-15T07:44:15Z,2025-07-29T19:09:20Z,2
+33208,[Compiler]: passing `ref` to render prop will void optimization,1512,2025-05-15T05:39:44Z,2025-07-29T19:02:07Z,1
+33204,[Compiler]: Detect use of callback refs for layout synchronization,2265,2025-05-14T19:36:35Z,2025-08-21T17:09:45Z,3
+33198,[Compiler Bug]: compiler doesn't work with `@svgr/webpack`,1384,2025-05-14T13:56:00Z,2025-05-31T00:25:34Z,1
+33197,"Bug: Conditional button rendering with button and submit inside a form causes type=""button"" to submit",1009,2025-05-14T12:23:58Z,2025-12-01T17:07:38Z,6
+33196,[Compiler Bug]: Compiler errors when optimizing component with spread assignment in `if` in `while` loop,1650,2025-05-14T10:22:44Z,2025-08-19T16:25:51Z,2
+33187,Bug: CSS not being applied properly in Chrome with React experimental (moveBefore),2794,2025-05-13T14:28:19Z,2025-06-19T08:04:49Z,3
+33175,Bug: Detached nodes are created when portal is rendered conditionally,1051,2025-05-12T12:35:45Z,2025-08-17T14:04:42Z,2
+33174,Bug for facebook graph api (I know this might not relate the topic but please show it That someone from meta helps us),461,2025-05-12T09:42:42Z,2025-08-12T17:17:13Z,4
+33172,Bug: Fix: Expose event.submitter in React Synthetic Form Events,926,2025-05-12T05:13:19Z,2025-05-12T05:13:56Z,0
+33171,[Compiler Bug]: React Compiler breaks SuperToken's react-native global fetch patch,1947,2025-05-11T17:59:55Z,2025-05-17T23:36:28Z,3
+33169,Bug:  Potential misuse of NoLanes in executionContext check in scheduleUpdateOnFiber,1382,2025-05-11T16:02:11Z,2025-08-09T18:08:12Z,1
+33168,Bug: 'Sync with react.dev' is not working,460,2025-05-11T06:58:26Z,2025-05-14T12:54:46Z,1
+33155,Bug: ReactFlightWebpackPlugin does not write files with .mjs extension to the manifest,1878,2025-05-08T19:05:10Z,2025-05-13T01:16:17Z,0
+33153,Bug: React error #421 isn't reported anymore,900,2025-05-08T11:30:55Z,2025-11-17T10:06:43Z,4
+33138,[Compiler Bug]: function outlining changes runtime semantics inside expressions,1689,2025-05-07T16:12:13Z,2025-08-19T16:29:41Z,1
+33137,Feature Request: Simplify createReconciler,7130,2025-05-07T10:47:02Z,2025-05-23T02:04:57Z,1
+33133,Bug: 【React19】 hydrateRoot issues a hydration warning when used with dangerouslySetInnerHTML and suppressHydrationWarning.,1230,2025-05-06T12:44:53Z,2025-09-30T23:04:56Z,4
+33132,Bug: What the issues,1035,2025-05-06T09:18:11Z,2025-08-04T15:37:48Z,1
+33124,Bug:,940,2025-05-05T17:48:44Z,2025-05-06T00:46:59Z,0
+33116,Bug:,940,2025-05-03T15:48:18Z,2025-05-04T03:42:20Z,0
+33115,Bug:,940,2025-05-03T15:48:17Z,2025-05-04T03:42:11Z,0
+33103,Bug: Can't import react-devtools-core in NodeJS environment,1298,2025-05-02T18:38:09Z,2025-08-31T11:04:36Z,6
+33090,Bug: Maximum update depth exceeded appears in frequent onDrop scenarios,858,2025-05-01T18:56:15Z,2025-08-09T05:05:50Z,5
+33057,[Compiler Bug]: React Compiler breaks most functionality of TanStack Table,1078,2025-04-29T19:01:47Z,2026-02-04T03:33:24Z,12
+33052,[Compiler Bug]: TypeError: isUndefined is not a function (it is undefined),1171,2025-04-29T09:07:21Z,2025-09-11T22:38:15Z,6
+33037,Face,393,2025-04-27T03:24:19Z,2025-04-27T03:24:34Z,1
+33036,Face,393,2025-04-27T03:24:17Z,2025-04-28T14:13:21Z,3
+33035,Face,384,2025-04-27T03:24:14Z,2025-04-28T14:13:25Z,0
+33034,"Bug: Persistent Re-render Issue Despite Optimizations (React 18, Next.js, Hooks, Context)",3250,2025-04-26T21:21:42Z,2025-08-02T22:05:10Z,4
+33033,Bug: form submit event does not expose event.submitter,971,2025-04-26T13:39:57Z,2026-02-02T20:17:32Z,6
+33031,[Compiler]: unnecessary memoization of non-primitive arguments in native React hooks,2231,2025-04-26T05:58:24Z,2025-07-31T19:17:09Z,3
+33024,"Bug: Unit testing error message - ""The tag <search> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter.""",3615,2025-04-25T16:31:27Z,2025-05-23T02:09:07Z,2
+33021,[react-refresh] no changelog found,251,2025-04-25T15:51:40Z,2026-01-07T17:08:35Z,6
+33020,Bug: <Suspense> with a lazy() Component loads forever,1224,2025-04-25T14:25:15Z,2026-03-05T18:40:33Z,8
+33018,Bug:,939,2025-04-25T11:54:25Z,2025-04-25T14:36:45Z,0
+33015,Bug: ViewTransition name prop does not support numerical prefixes,762,2025-04-24T19:29:41Z,2025-11-19T01:33:50Z,6
+33008,Bug: useEffect() clears timeout immediately after a focus event with StrictMode,1468,2025-04-24T12:14:51Z,2025-08-13T09:59:55Z,4
+32992,Bug: `React.Profiler` no longer works in production builds after upgrading to React 19,4665,2025-04-23T05:28:34Z,2025-04-24T01:23:00Z,2
+32988,Bug:,940,2025-04-22T18:54:15Z,2025-04-22T20:03:31Z,0
+32987,Bug: [eslint-plugin-react-hooks] Classes with no render method are identified as class components instead of plain objects,1884,2025-04-22T17:15:10Z,2025-07-28T18:07:45Z,2
+32985,Bug:,939,2025-04-22T02:27:15Z,2025-04-22T05:33:01Z,0
+32982,Bug: eslint-plugin-react-hooks@6.0.0 suddenly installs the entire babel toolchain,768,2025-04-21T20:25:36Z,2025-04-22T07:47:48Z,2
+32976,Bug: [eslint-plugin-react-hooks] False positive for `use` rule when using Effector,1619,2025-04-21T04:53:01Z,2025-07-28T08:08:44Z,3
+32975,"Bug: [React 19] When both ""dangerouslySetInnerHTML={{ __html: '' }}"" and ""suppressHydrationWarning"" are used together, the hydration process is not canceled as anticipated.",924,2025-04-21T02:56:21Z,2025-08-11T04:21:23Z,4
+32967,Bug:,2707,2025-04-20T06:00:38Z,2025-04-22T05:33:54Z,1
+32965,Bug: Browser builds of `/static` and `/server` hang indefinitely in Node upon completion in v19,1028,2025-04-20T05:09:50Z,2025-12-16T16:57:26Z,11
+32964,"[DevTools Bug] Cannot remove node ""107"" because no matching node was found in the Store.",1184,2025-04-19T15:11:40Z,2025-10-12T13:03:51Z,2
+32961,Feature Request: allow for DOM mode insertion in createPortal,1402,2025-04-18T14:20:27Z,2025-09-29T05:06:06Z,3
+32960,Feature Request: add useEffect callback argument,530,2025-04-18T11:32:48Z,2025-10-28T23:05:05Z,7
+32954,"Bug: React 19.0.0 upgraded to 19.1.0, renderToPipeableStream Suspense fallback does not return the first fragment content",940,2025-04-18T03:30:23Z,2025-07-24T03:33:28Z,2
+32948,Bug: Reactjs Navigation issue,537,2025-04-17T07:21:16Z,2025-04-17T11:45:01Z,1
+32947,[Compiler Bug]: Property 'tsSatisfiesExpression' does not exist on type...,1226,2025-04-17T07:03:41Z,2025-08-19T16:35:37Z,2
+32946,[React 19.1] useEffect cleanup running too late / useRef cleanup too early?,1505,2025-04-17T06:01:54Z,2025-05-14T02:00:09Z,3
+32942,Bug:,940,2025-04-17T02:12:45Z,2025-04-22T05:33:20Z,0
+32927,Bug: Uncaught TypeError: Cannot read properties of undefined (reading 'H'),7242,2025-04-16T11:27:09Z,2025-07-22T13:17:16Z,2
+32926,Bug:,940,2025-04-16T06:22:48Z,2025-04-16T22:02:13Z,0
+32915,[Compiler Bug]: Unicode characters handled incorrectly,1201,2025-04-15T13:53:26Z,2025-08-19T16:36:05Z,3
+32899,Bug:,940,2025-04-15T02:46:41Z,2025-04-15T07:47:14Z,0
+32867,Bug:,940,2025-04-13T12:39:01Z,2025-04-15T17:10:16Z,1
+32866,Bug:,940,2025-04-13T12:38:59Z,2025-04-15T17:10:09Z,0
+32857,Test Issue from GitHub MCP Server,97,2025-04-11T19:19:46Z,2025-04-12T08:13:55Z,0
+32854,Bug: button not working,940,2025-04-11T15:06:09Z,2025-04-11T15:11:01Z,0
+32824,Bug: irregular behaviour of sidescroll when webpage zoomed-in,875,2025-04-06T05:58:46Z,2025-07-21T13:17:19Z,5
+32818,Bug: Sidebar Dropdown Does Not Collapse on Second Click in React Documentation,1767,2025-04-04T10:22:04Z,2025-07-21T10:06:21Z,7
+32811,"Bug: createRoot().render() is not fully synchronous unless wrapped in flushSync, unlike legacy ReactDOM.render",2588,2025-04-03T12:19:08Z,2025-04-08T11:44:14Z,2
+32806,Bug: stylesheets that use precedence are significantly slower to render at scale,2529,2025-04-02T16:49:59Z,2026-01-10T22:05:19Z,9
+32805,[DevTools Bug]:,437,2025-04-02T12:51:20Z,2025-04-02T18:08:14Z,1
+32804,[Bug]: ERR_INVALID_ARG_TYPE occurs when I install project,2717,2025-04-02T04:38:51Z,2025-04-02T14:02:20Z,3
+32798,[React 19] renderToPipeableStream emits </html> in different order?,1811,2025-04-01T03:58:14Z,2025-07-08T18:07:12Z,4
+32796,Bug: suspense fallback flickers with nested suspended components,536,2025-04-01T01:35:48Z,2025-07-23T15:06:28Z,4
+32794,"Bug: Why server action request use ""content-type: text/plain"", this will cause the default WAF rule block the request.",2146,2025-03-31T11:49:22Z,2025-03-31T11:58:50Z,0
+32789,"Bug: eslint-plugin-react-hooks incorrectly flags useSomething() in loop, while allowing use() in React 19",1595,2025-03-29T23:05:34Z,2025-04-02T10:54:35Z,2
+32784,[Compiler Bug]: some values set to undefined after optimization,1643,2025-03-29T11:44:29Z,2025-03-31T01:39:06Z,2
+32776,[DevTools Bug]: Doesn't work in browser extensions,588,2025-03-28T10:55:53Z,2025-04-23T17:15:17Z,0
+32775,Bug: eslint-plugin-react-hooks doesnt handle components starting with non-ASCII uppercase letter,636,2025-03-28T07:13:28Z,2025-07-09T21:05:19Z,4
+32771,"[DevTools Bug]: Firefox extension out of date (v6.0.0, 2024-09-26)",731,2025-03-27T18:55:01Z,2025-10-15T08:42:43Z,7
+32766,Bug: [React 19] Cannot read properties of undefined (reading 'ReactCurrentBatchConfig',7011,2025-03-27T10:28:01Z,2025-04-15T09:59:04Z,0
+32753,Bug: react-dom.development.js:1571 Uncaught InvalidStateError when handling file input in React 16.13.1,3988,2025-03-26T06:40:37Z,2025-07-21T14:06:24Z,3
+32750,"[DevTools Bug] Cannot add node ""29"" because a node with that id is already in the Store.",1148,2025-03-25T20:22:30Z,2025-10-12T13:03:58Z,3
+32743,Bug: React Dev Tools does not have a Google Chrome Store Established Publisher badge,1336,2025-03-25T17:09:30Z,2025-11-11T19:04:41Z,6
+32731,[your Data],374,2025-03-24T22:42:56Z,2025-03-25T00:07:24Z,0
+32721,[React 19] React Server Components: `flushScheduled` Initialization in `startWork` Can Be Improved,2676,2025-03-24T14:21:17Z,2025-09-28T03:21:28Z,4
+32715,Bug: `renderToStaticMarkup` throws error on client components,896,2025-03-23T20:12:07Z,2026-03-12T03:02:47Z,7
+32714,Bug:  Maximum update depth exceeded,1410,2025-03-23T00:56:00Z,2025-07-15T14:06:09Z,6
+32700,[React 19],374,2025-03-21T09:47:52Z,2025-03-21T09:48:19Z,0
+32694,Feature Request: Official React VSCode Extension with Practical Enhancements,2046,2025-03-20T23:38:30Z,2025-06-27T06:07:59Z,4
+32659,[DevTools Bug]: cannot double click anymore on component name to filter the tree view (in Components tab) (since v6.1.1),1124,2025-03-18T13:48:33Z,2025-05-12T13:13:11Z,10
+32658,Bug:  help,587,2025-03-18T13:32:37Z,2025-06-27T18:06:59Z,3
+32642,"[DevTools Bug] Cannot remove node ""37930"" because no matching node was found in the Store.",1132,2025-03-16T22:57:28Z,2025-03-17T08:04:01Z,2
+32638,[React 19],374,2025-03-16T15:10:04Z,2025-03-16T16:36:20Z,0
+32637,[React 19],374,2025-03-16T15:10:03Z,2025-03-16T16:37:41Z,0
+32636,[React 19],374,2025-03-16T15:10:01Z,2025-03-16T16:37:37Z,1
+32635,[React 19],374,2025-03-16T15:09:56Z,2025-03-16T16:37:19Z,0
+32634,[React 19],374,2025-03-16T15:09:56Z,2025-03-16T16:37:33Z,0
+32633,[React 19],374,2025-03-16T15:09:55Z,2025-03-16T16:37:16Z,0
+32632,[React 19],374,2025-03-16T15:09:53Z,2025-03-16T16:37:09Z,0
+32631,[React 19],374,2025-03-16T15:09:52Z,2025-03-16T16:37:12Z,0
+32630,[React 19],374,2025-03-16T15:09:51Z,2025-03-16T16:37:06Z,0
+32629,[React 19],374,2025-03-16T15:09:50Z,2025-03-16T16:37:03Z,0
+32628,[React 19],374,2025-03-16T15:09:49Z,2025-03-16T16:36:59Z,0
+32627,[React 19],374,2025-03-16T15:09:48Z,2025-03-16T16:36:54Z,0
+32626,[React 19],374,2025-03-16T15:09:47Z,2025-03-16T16:36:42Z,0
+32620,[Compiler Bug]: return without value causes bailout,1491,2025-03-15T00:10:10Z,2025-04-15T14:28:57Z,3
+32587,[React 19],374,2025-03-12T22:29:12Z,2025-03-13T15:33:21Z,0
+32576,Bug: Uncontrolled `<input />` element has value attribute removed,1598,2025-03-12T02:31:43Z,2025-11-10T08:08:07Z,8
+32575,[Compiler Bug]: eslint-plugin-react-compiler has incorrect type definitions,1773,2025-03-12T01:09:04Z,2025-03-27T04:00:19Z,2
+32574,[React 19] Need Bring Back `_debugSource` or Provide an Equivalent for Better Developer Experience,2686,2025-03-11T21:08:21Z,2026-01-15T12:24:09Z,11
+32572,[React 19],374,2025-03-11T20:14:27Z,2025-03-13T15:33:44Z,0
+32571,eslint-plugin-react-compiler follow ups,770,2025-03-11T15:46:20Z,2026-03-28T19:54:54Z,5
+32564,Bug:,940,2025-03-10T06:40:35Z,2025-03-13T15:33:53Z,0
+32563,Bug: rtyui,940,2025-03-10T06:40:27Z,2025-03-13T15:34:08Z,0
+32562,Bug: <title> element duplicates and <link> and <style> doesn't move to <head> element,1833,2025-03-10T02:07:28Z,2025-09-24T01:33:15Z,7
+32560,[Compiler Bug]: Compiler undoing useMemo making hook less performant,3362,2025-03-09T20:08:22Z,2025-03-11T04:08:52Z,3
+32559,Bug: Stop updating defaultValue prop of <textarea>,1242,2025-03-09T09:48:21Z,2025-04-02T17:11:09Z,3
+32558,Bug: Does React enforces the same number and order of hooks across all instances of a component?,1513,2025-03-09T07:39:05Z,2025-03-15T14:48:55Z,7
+32557,"Bug: Hydration(render) Error when Using Browser Auto-Translation (e.g., Google Translate)",2464,2025-03-09T04:42:57Z,2025-06-18T23:05:25Z,5
+32556,Test Issue,68,2025-03-09T03:34:43Z,2025-03-09T04:47:24Z,0
+32554,Bug: git clone and yarn install fails,246,2025-03-09T00:54:32Z,2025-06-18T23:05:26Z,3
+32552,[DevTools Bug]: Negative infinity is serialized and shown as `Infinity` ,1041,2025-03-08T11:14:40Z,2026-05-02T08:50:42Z,4
+32548,[React 19],374,2025-03-07T15:24:42Z,2025-03-07T20:24:30Z,0
+32547,Bug: React 19 regression - react-dom/server.browser async_hooks context loss on suspense,668,2025-03-07T13:57:40Z,2025-06-18T23:05:27Z,3
+32544,Bug:,940,2025-03-07T00:45:10Z,2025-03-07T04:53:24Z,0
+32543,Bug:,940,2025-03-07T00:44:59Z,2025-03-07T04:53:35Z,0
+32542,[React 19],374,2025-03-07T00:44:11Z,2025-03-07T00:46:24Z,0
+32541,[React 19],374,2025-03-07T00:44:06Z,2025-03-07T04:53:07Z,0
+32533,Bug: Improve ESLint error message for invalid hook usage,2111,2025-03-05T20:35:30Z,2025-06-13T23:05:27Z,5
+32531,Bug: cloneElement does not correctly merge styles when used in nested components,2262,2025-03-05T18:53:20Z,2025-06-18T23:05:28Z,3
+32526,Bug: In react native skia when using the video using useVideo hook app crash and ask to report for this missing queue.,6802,2025-03-05T10:56:21Z,2025-06-13T23:05:29Z,2
+32516,Bug: Chrome autofill made the text field can't select,3403,2025-03-04T15:43:56Z,2025-10-06T15:05:37Z,12
+32515,Bug: Lost error messages from Server side,1134,2025-03-04T13:36:24Z,2025-06-13T23:05:30Z,5
+32510,test,4,2025-03-04T01:44:22Z,2025-03-04T01:47:08Z,0
+32509,test,4,2025-03-04T01:44:21Z,2025-03-04T01:45:17Z,0
+32503,Bug: Npm Start not working in react project using either Vite or C-R-A,6603,2025-03-03T08:35:21Z,2025-06-26T00:24:12Z,5
+32502,Bug:,940,2025-03-03T05:04:38Z,2025-03-03T21:27:03Z,0
+32501,[React 19],374,2025-03-03T02:54:34Z,2025-03-03T05:49:48Z,0
+32494,"Bug [`eslint-plugin-react-hooks`]: `Config (unnamed): Key ""plugins"": This appears to be in eslintrc format (array of strings) rather than flat config format (object).`",2254,2025-02-28T20:09:48Z,2025-03-02T12:38:18Z,6
+32483,"Bug: When I Use use() in server component, get [Error: Expected a suspended thenable. This is a bug in React. Please file an issue.]",2812,2025-02-27T02:17:39Z,2025-03-05T06:19:35Z,3
+32481,Bug:  Warning: Internal React error: Expected static flag was missing. Please notify the React team,9732,2025-02-26T19:43:54Z,2025-08-29T03:19:29Z,3
+32474,🐛 Bug: React 19,689,2025-02-25T15:40:03Z,2025-02-25T18:49:19Z,4
+32472,Hs,374,2025-02-25T12:04:48Z,2025-02-25T23:03:54Z,0
+32469,[React 19],374,2025-02-25T01:31:46Z,2025-02-25T01:33:11Z,0
+32468,[React 19],374,2025-02-25T01:31:44Z,2025-02-25T01:34:24Z,0
+32467,[React 19],374,2025-02-25T01:31:41Z,2025-02-25T01:36:42Z,0
+32466,[React 19],376,2025-02-25T01:31:27Z,2025-02-25T08:35:47Z,0
+32456,[React 19],374,2025-02-22T19:53:27Z,2025-02-22T19:54:01Z,0
+32455,[React 19],374,2025-02-22T19:53:09Z,2025-02-23T08:17:52Z,0
+32454,[React 19],374,2025-02-22T19:53:07Z,2025-02-23T08:17:58Z,0
+32453,[React 19],374,2025-02-22T19:52:58Z,2025-02-23T08:17:54Z,0
+32450,[React 19],374,2025-02-22T00:26:46Z,2025-02-23T08:18:04Z,2
+32449,`nonce` is dropped from style tags that use `precedence`,1254,2025-02-21T20:54:15Z,2025-05-29T15:17:11Z,0
+32448,[React 19],374,2025-02-21T19:02:47Z,2025-02-21T20:42:47Z,0
+32447,[React 19],465,2025-02-21T19:02:44Z,2025-02-21T20:42:44Z,1
+32444,[React 19],3217,2025-02-21T17:16:38Z,2025-02-21T20:42:57Z,0
+32440,[Compiler Bug]: Cyclic dependencies when using the react-compiler and metro bundler can result in sometimes undefined hook imports,3548,2025-02-21T02:39:40Z,2025-07-24T16:48:04Z,4
+32439,Copl,374,2025-02-20T23:39:05Z,2025-02-20T23:39:23Z,0
+32438,[React 19 mm,374,2025-02-20T23:35:34Z,2025-02-20T23:36:40Z,2
+32437,Bug: responsive images not supported in link preload headers,378,2025-02-20T20:03:36Z,2025-02-21T17:48:33Z,0
+32433,[React 19],388,2025-02-20T11:55:18Z,2025-02-20T19:07:52Z,0
+32432,[Compiler Bug]: React throws an error when useMemo is used.,5650,2025-02-20T10:34:06Z,2025-02-20T11:06:29Z,0
+32431,Bug: `recommended-latest` config not available in `eslint-plugin-react-hooks`,2255,2025-02-20T08:57:23Z,2025-03-10T13:21:00Z,5
+32430,[React 19],374,2025-02-20T05:23:07Z,2025-02-20T19:07:45Z,1
+32429,[React 19],374,2025-02-20T05:23:06Z,2025-02-20T20:57:48Z,0
+32424,[Compiler Bug]: Make memoization more granular,1553,2025-02-19T11:54:12Z,2025-02-19T23:01:49Z,6
+32423,Bug: event handlers in fragment roots,1671,2025-02-19T09:02:41Z,2025-06-19T00:24:20Z,4
+32414,[React 19],407,2025-02-18T11:31:46Z,2025-02-18T21:34:21Z,2
+32406,Bug: JSX SVG Typescript type error: missing 'slot' attribute,89,2025-02-17T09:02:20Z,2025-06-13T23:05:37Z,12
+32405,[React 19],374,2025-02-17T08:18:26Z,2025-02-17T09:23:09Z,0

@@ -1,0 +1,11 @@
+Issue_ID,Title,State,Created_At,Closed_At,Comments
+318058,"""Add Element to Chat"" and ""Add Console Logs to Chat"" no-op when chat panel was closed before",closed,2026-05-22T22:14:29Z,2026-05-23T02:32:48Z,1
+317869,Agent-opened browsers shouldn't always be opened in the foreground,closed,2026-05-21T22:17:05Z,2026-05-21T23:27:10Z,0
+317787,[Regression] Cannot read properties of undefined (reading 'resize') — terminalInstance._resize,closed,2026-05-21T15:54:52Z,2026-05-21T17:21:31Z,1
+317763,BYOK: Terminal steering request may not reuse frozen customizations-index,closed,2026-05-21T11:14:26Z,2026-05-24T01:45:51Z,2
+317714,Remote `ssh` connection fails from Debian -> MacOS,closed,2026-05-21T06:57:02Z,2026-05-21T23:06:20Z,7
+317643,Agents window workspace storage is sometimes wiped when restarting,closed,2026-05-20T22:02:58Z,2026-05-22T09:22:24Z,0
+317574,[Regression] [Error] [GitHub.copilot-chat] unhandlederror-Va.lm.registerToolDefinition is not a function,closed,2026-05-20T17:05:47Z,2026-05-20T17:44:33Z,2
+317567,Agent host is spawning worktree terminal,closed,2026-05-20T16:34:41Z,2026-05-21T14:48:22Z,0
+317566,"[Error] unhandlederror-Session file is corrupted (line 51: ephemeral: Invalid literal value, expected true)",closed,2026-05-20T16:19:30Z,2026-05-20T19:21:56Z,0
+317520,"Agents: Session list reorders immediately on opening search, causing visual jump",closed,2026-05-20T13:00:22Z,2026-05-20T22:48:33Z,0
