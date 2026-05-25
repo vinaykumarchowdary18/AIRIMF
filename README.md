@@ -58,4 +58,3 @@ pdflatex AIRIMF
 | `IEEE_SHAP_Explanation.png` | `figures/` |
 | `AIRIMF.tex` (final version) | `paper/` |
 
-Now your research is fully reproducible, transparent, and ready for GitHub. Push it, and you’ll have a professional repository to share with reviewers and the community.
