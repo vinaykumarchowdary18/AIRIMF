@@ -3,7 +3,7 @@ import pandas as pd
 import time
 
 # --- CONFIGURATION ---
-GITHUB_TOKEN = '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'
+GITHUB_TOKEN = 'github_pat_**********'
 HEADERS = {
     'Authorization': f'token {GITHUB_TOKEN}',
     'Accept': 'application/vnd.github.v3+json'
