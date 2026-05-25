@@ -1,0 +1,27 @@
+# Credentials – NEVER commit these
+*.env
+*secret*
+*token*
+config.py
+
+# Bytecode and virtual environments
+__pycache__/
+*.py[cod]
+venv/
+env/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# LaTeX auxiliary files (only keep the .tex and final .pdf if desired)
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+
+# OS files
+.DS_Store
+Thumbs.db
