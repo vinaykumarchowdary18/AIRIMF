@@ -1,7 +1,7 @@
 # 🚀 AIRIMF: AI-Driven Risk Identification and Mitigation Framework
 
 ## 📖 Overview
-[cite_start]AIRIMF is a machine-learning pipeline designed to shift software project management from reactive firefighting to proactive triage[cite: 588, 599]. [cite_start]It predicts whether a GitHub issue will become "Challenging" (taking more than 14 days to resolve) at the exact moment of creation[cite: 603]. [cite_start]By strictly eliminating target leakage and relying entirely on early-stage metadata and NLP sentiment, it provides actionable risk scores without artificially inflating accuracy[cite: 600, 603, 604].
+AIRIMF is a machine-learning pipeline designed to shift software project management from reactive firefighting to proactive triage[cite: 588, 599]. [cite_start]It predicts whether a GitHub issue will become "Challenging" (taking more than 14 days to resolve) at the exact moment of creation[cite: 603]. [cite_start]By strictly eliminating target leakage and relying entirely on early-stage metadata and NLP sentiment, it provides actionable risk scores without artificially inflating accuracy[cite: 600, 603, 604].
 
 ## ✨ Key Capabilities
 * [cite_start]**Leakage-Free Architecture:** Evaluates risk using only 5 pre-resolution features: Title Length, Body Length, Initial Comment Count, Sentiment Polarity, and Sentiment Subjectivity[cite: 629, 630, 631, 632].
