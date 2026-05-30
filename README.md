@@ -1,72 +1,71 @@
-🚀 AIRIMF: AI-Driven Risk Identification and Mitigation Framework
-📖 Overview
-AIRIMF is a machine-learning pipeline designed for proactive software project management. It flags high-risk GitHub tickets (issues taking > 14 days to resolve) at the exact moment of creation. By strictly utilizing pre-resolution metadata and NLP sentiment, AIRIMF completely eliminates target leakage while providing project managers with real-time, actionable risk assessments.
+# 🚀 AIRIMF: AI-Driven Risk Identification and Mitigation Framework
 
-✨ Key Features
-Strict Early-Stage Prediction: Evaluates risk using only Title Length, Body Length, Initial Comment Count, Sentiment Polarity, and Sentiment Subjectivity.
+## 📖 Overview
+[cite_start]AIRIMF is a machine-learning pipeline designed to shift software project management from reactive firefighting to proactive triage[cite: 588, 599]. [cite_start]It predicts whether a GitHub issue will become "Challenging" (taking more than 14 days to resolve) at the exact moment of creation[cite: 603]. [cite_start]By strictly eliminating target leakage and relying entirely on early-stage metadata and NLP sentiment, it provides actionable risk scores without artificially inflating accuracy[cite: 600, 603, 604].
 
-Leakage-Free Architecture: Ensures no features derived from the actual resolution time are included in the predictive model.
+## ✨ Key Capabilities
+* [cite_start]**Leakage-Free Architecture:** Evaluates risk using only 5 pre-resolution features: Title Length, Body Length, Initial Comment Count, Sentiment Polarity, and Sentiment Subjectivity[cite: 629, 630, 631, 632].
+* [cite_start]**Class Imbalance Handling:** Uses the SMOTE algorithm to synthetically balance datasets, preventing the model from just guessing the majority class[cite: 618, 619].
+* [cite_start]**XAI Explanations:** Integrates SHAP to provide real-time, human-readable feature impact explanations for every single flagged issue[cite: 606].
+* [cite_start]**Live Webhook Integration:** Features a FastAPI backend that listens for live GitHub events and acts as an automated triage bot[cite: 628, 635].
 
-Imbalance Handling: Utilizes SMOTE to generate balanced training sets, significantly improving the recall of minority-class (challenging) bugs.
+---
 
-XAI (Explainable AI): Integrates SHAP to provide real-time feature importance explanations for every flagged issue.
-
-Cross-Ecosystem Generalizability: Validated on major open-source repositories including microsoft/vscode and facebook/react.
-
-🏗️ System Architecture
+## 🏗️ System Architecture
 The framework operates on a four-layer DevSecOps architecture:
 
-Layer 1 (Data Ingestion Layer): Collects real-time or historical bug reports via GitHub REST API / WebHooks.
+| Layer | Component | Description |
+| :--- | :--- | :--- |
+| **1. Data Ingestion** | GitHub REST API & Webhooks | [cite_start]Scrapes historical issues or listens for live JSON payloads[cite: 627, 628]. |
+| **2. Feature Engineering** | VADER/TextBlob & SMOTE | [cite_start]Extracts NLP sentiment, calculates metadata, and balances classes[cite: 632]. |
+| **3. Predictive Engine** | Random Forest | [cite_start]Evaluates features to output a risk probability and binary classification[cite: 633, 634]. |
+| **4. Action & Mitigation** | FastAPI & GitHub Bot | [cite_start]Posts the SHAP explanation and risk score back to the live issue[cite: 635]. |
 
-Layer 2 (Feature Engineering Layer): Processes NLP sentiment and applies SMOTE for class balancing.
+---
 
-Layer 3 (Predictive Layer): A trained Random Forest classifier evaluates the feature vector to generate a risk probability.
+## 📊 Empirical Performance
+[cite_start]The champion Random Forest model (150 estimators, max depth 15, min-samples-split 5) was rigorously evaluated using 5-fold cross-validation[cite: 606, 647].
 
-Layer 4 (Action & Mitigation Layer): A FastAPI-driven webhook that posts risk assessments directly to GitHub issues and project management dashboards.
+| Metric | Microsoft/VS Code | Facebook/React |
+| :--- | :--- | :--- |
+| **Holdout Accuracy** | [cite_start]76.42% [cite: 639] | [cite_start]84.70% [cite: 675] |
+| **High-Risk Recall** | [cite_start]82.00% [cite: 656] | [cite_start]89.00% [cite: 676] |
+| **ROC-AUC Score** | [cite_start]0.8436 [cite: 656] | [cite_start]0.9087 [cite: 675] |
 
-📊 Empirical Results
-The champion Random Forest model has been rigorously evaluated under leakage-free conditions using 5-fold cross-validation and McNemar's test.
+**Statistical Highlights:**
+* [cite_start]The model's superiority over standard SVM baselines was validated using McNemar's test, yielding a chi-squared of 30.25 and a p-value of $p < 0.0001$[cite: 681]. 
+* [cite_start]Ablation studies proved that adding NLP sentiment features boosted accuracy by 6.17 percentage points over metadata alone[cite: 665]. 
+* [cite_start]SHAP analysis confirms `Body_Length` is the dominant risk signal at creation time (36.38% importance)[cite: 661, 662].
 
-VS Code Benchmark
-Accuracy: 76.21% (Cross-Validation) / 76.42% (Holdout)
+---
 
-High-Risk Recall: 82%
+## ⚙️ Installation & Setup
+Install the required pipeline and backend dependencies:
 
-ROC-AUC: 0.8436
-
-React (Cross-Project Validation)
-Accuracy: 83.37% (Cross-Validation)
-
-High-Risk Recall: 89%
-
-ROC-AUC: 0.9087
-
-Note: Ablation studies demonstrate that adding NLP sentiment features boosts accuracy by over 6 percentage points compared to structural metadata alone. SHAP analysis confirms Body_Length is the dominant risk signal at creation time (accounting for 36.4% of predictive importance).
-
-⚙️ Installation & Setup
-Ensure you have Python installed. Install the required pipeline and backend dependencies:
-
-Bash
+```bash
 pip install pandas scikit-learn imbalanced-learn textblob shap joblib fastapi uvicorn
-🚀 Usage
-1. Model Export
-To train and export the champion model and SHAP explainer from the advanced pipeline:
+🚀 Pipeline Execution
+Phase 1: Training & Model Export
+Train the champion Random Forest model, calculate NLP features, and export the .joblib files required for the backend server:
 
 Bash
 python airimf_v3_advanced_pipeline.py
-2. Local Inference Test
-To test the decoupled engine on a simulated new issue to view real-time classifications and SHAP explanations:
+Phase 2: Live DevSecOps Deployment
+Local Inference Test: Verify the decoupled model can predict risk on a simulated issue.
 
 Bash
 python step2_local_inference.py
-3. Live FastAPI Webhook
-To launch the live DevSecOps inference server that listens for GitHub webhook payloads:
+Launch Webhook Server: Start the live FastAPI inference server.
 
 Bash
-python step3_fastapi_webhook.py
-(To expose this local server to GitHub, authenticate with ngrok, run ngrok http 8000, and paste the generated public URL into your repository's webhook settings).
+python step4_github_bot.py
+Expose to GitHub: Create a public tunnel to your local server so GitHub can send webhooks.
+
+Bash
+ngrok http 8000
+(Copy the generated https://...ngrok-free.app URL and paste it into your GitHub Repository -> Settings -> Webhooks).
 
 📝 Citation
-If you use AIRIMF in your research, please cite the foundational framework:
+If you utilize AIRIMF in your research or production environment, please cite the foundational framework:
 
 Kumar, M. V. (2026). AIRIMF: An AI-Driven Risk Identification and Mitigation Framework for Software Project Management. Department of Computer Science and Engineering, Lovely Professional University.
