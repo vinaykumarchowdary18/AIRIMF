@@ -1,13 +1,16 @@
 # 🚀 AIRIMF: AI-Driven Risk Identification and Mitigation Framework
 
 ## 📖 Overview
-AIRIMF is a machine-learning pipeline designed to shift software project management from reactive firefighting to proactive triage[cite: 588, 599]. It predicts whether a GitHub issue will become "Challenging" (taking more than 14 days to resolve) at the exact moment of creation[cite: 603]. By strictly eliminating target leakage and relying entirely on early-stage metadata and NLP sentiment, it provides actionable risk scores without artificially inflating accuracy[cite: 600, 603, 604].
+AIRIMF is a machine-learning pipeline designed to shift software project management from reactive firefighting to proactive triage. It predicts whether a GitHub issue will become "Challenging" (taking more than 14 days to resolve) at the exact moment of creation. 
+
+By strictly eliminating target leakage and relying entirely on early-stage metadata and NLP sentiment, it provides actionable risk scores without artificially inflating accuracy.
 
 ## ✨ Key Capabilities
-* **Leakage-Free Architecture:** Evaluates risk using only 5 pre-resolution features: Title Length, Body Length, Initial Comment Count, Sentiment Polarity, and Sentiment Subjectivity[cite: 629, 630, 631, 632].
-* **Class Imbalance Handling:** Uses the SMOTE algorithm to synthetically balance datasets, preventing the model from just guessing the majority class[cite: 618, 619].
-* **XAI Explanations:** Integrates SHAP to provide real-time, human-readable feature impact explanations for every single flagged issue[cite: 606].
-* **Live Webhook Integration:** Features a FastAPI backend that listens for live GitHub events and acts as an automated triage bot[cite: 628, 635].
+* **Leakage-Free Architecture:** Evaluates risk using only 5 pre-resolution features: Title Length, Body Length, Initial Comment Count, Sentiment Polarity, and Sentiment Subjectivity.
+* **Class Imbalance Handling:** Uses the SMOTE algorithm to synthetically balance datasets, preventing the model from just guessing the majority class.
+* **XAI Explanations:** Integrates SHAP to provide real-time, human-readable feature impact explanations for every single flagged issue.
+* **Live Webhook Integration:** Features a FastAPI backend that listens for live GitHub events and acts as an automated triage bot.
+* **Cross-Project Generalizability:** Trained on `microsoft/vscode` and successfully validated on `facebook/react`.
 
 ---
 
@@ -16,27 +19,26 @@ The framework operates on a four-layer DevSecOps architecture:
 
 | Layer | Component | Description |
 | :--- | :--- | :--- |
-| **1. Data Ingestion** | GitHub REST API & Webhooks | Scrapes historical issues or listens for live JSON payloads[cite: 627, 628]. |
-| **2. Feature Engineering** | VADER/TextBlob & SMOTE | Extracts NLP sentiment, calculates metadata, and balances classes[cite: 632]. |
-| **3. Predictive Engine** | Random Forest | Evaluates features to output a risk probability and binary classification[cite: 633, 634]. |
-| **4. Action & Mitigation** | FastAPI & GitHub Bot | 
-Posts the SHAP explanation and risk score back to the live issue[cite: 635]. |
+| **1. Data Ingestion** | GitHub REST API & Webhooks | Scrapes historical issues or listens for live JSON payloads. |
+| **2. Feature Engineering** | VADER/TextBlob & SMOTE | Extracts NLP sentiment, calculates metadata, and balances classes. |
+| **3. Predictive Engine** | Random Forest | Evaluates features to output a risk probability and binary classification. |
+| **4. Action & Mitigation** | FastAPI & GitHub Bot | Posts the SHAP explanation and risk score back to the live issue. |
 
 ---
 
 ## 📊 Empirical Performance
-The champion Random Forest model (150 estimators, max depth 15, min-samples-split 5) was rigorously evaluated using 5-fold cross-validation[cite: 606, 647].
+The champion Random Forest model (150 estimators, max depth 15, min-samples-split 5) was rigorously evaluated using 5-fold cross-validation.
 
 | Metric | Microsoft/VS Code | Facebook/React |
 | :--- | :--- | :--- |
-| **Holdout Accuracy** | 76.42% [cite: 639] |84.70% [cite: 675] |
-| **High-Risk Recall** | 82.00% [cite: 656] | 89.00% [cite: 676] |
-| **ROC-AUC Score** | 0.8436 [cite: 656] | 0.9087 [cite: 675] |
+| **Holdout Accuracy** | 76.42% | 84.70% |
+| **High-Risk Recall** | 82.00% | 89.00% |
+| **ROC-AUC Score** | 0.8436 | 0.9087 |
 
 **Statistical Highlights:**
-* The model's superiority over standard SVM baselines was validated using McNemar's test, yielding a chi-squared of 30.25 and a p-value of $p < 0.0001$[cite: 681]. 
-* Ablation studies proved that adding NLP sentiment features boosted accuracy by 6.17 percentage points over metadata alone[cite: 665]. 
-* SHAP analysis confirms `Body_Length` is the dominant risk signal at creation time (36.38% importance)[cite: 661, 662].
+* The model's superiority over standard SVM baselines was validated using McNemar's test, yielding a chi-squared of 30.25 and a p-value of p < 0.0001. 
+* Ablation studies proved that adding NLP sentiment features boosted accuracy by 6.17 percentage points over structural metadata alone. 
+* SHAP analysis confirms `Body_Length` is the dominant risk signal at creation time (36.4% importance).
 
 ---
 
@@ -51,6 +53,8 @@ Train the champion Random Forest model, calculate NLP features, and export the .
 
 Bash
 python airimf_v3_advanced_pipeline.py
+(Optionally, run python airimf_v4_shap_ablation_lightgbm.py to generate the SHAP visual plots and ablation tables).
+
 Phase 2: Live DevSecOps Deployment
 Local Inference Test: Verify the decoupled model can predict risk on a simulated issue.
 
