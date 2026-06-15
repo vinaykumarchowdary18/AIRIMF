@@ -1,0 +1,203 @@
+Title,Body_Length,Comments,Created_At,Closed_At,Fixing_Duration_Days
+Signal forms - radio does not reflect form model signal initial state if value attribute is enum,2822,3,2026-01-08T13:37:04Z,2026-01-12T21:49:21Z,4.341863425925926
+Template pipeline leaves behind unnecessary restore/reset view calls in the presence of `@let`,1731,2,2025-12-31T08:04:11Z,2026-01-20T18:22:57Z,20.429699074074072
+Severe performance issues,14423,14,2025-09-10T20:16:48Z,2025-11-21T18:28:10Z,71.92456018518519
+signal-forms: FormValueControl is unable to mark field as dirty,2066,3,2025-09-06T08:14:16Z,2025-10-17T16:02:21Z,41.32505787037037
+Escape `APP_ID` for `ViewEncapsulation.Emulated`,1796,4,2025-08-19T20:17:32Z,2025-09-19T21:50:37Z,31.064641203703705
+Angular Language Service keeps crashing when using `host` and generic with host type-checking,4561,7,2025-08-07T18:17:37Z,2025-08-08T15:42:29Z,0.8922685185185185
+Tooltip hints for template variables do not match compiler type when narrowed by template syntax,4617,2,2025-07-09T21:29:18Z,2026-04-01T19:22:09Z,265.9117013888889
+Hydration - Cannot read nextSibling of null,1728,7,2025-06-18T10:57:51Z,2025-06-23T16:11:04Z,5.2175115740740745
+@angular/elements custom element property getter returns a function for signal inputs,1222,1,2025-06-17T11:05:02Z,2025-10-01T17:52:37Z,106.28304398148148
+Angular DevTools crashes when clicking into some components,1150,2,2025-06-05T14:39:00Z,2025-06-19T08:15:42Z,13.733819444444444
+Template with signal not updating when the value of the signal changes,7235,3,2025-05-23T21:05:57Z,2025-06-05T12:49:06Z,12.654965277777778
+AoT testing fails with ViewContainerRef.createComponent and overrideComponent,3837,4,2025-05-09T10:51:08Z,2025-09-24T07:42:57Z,137.86931712962962
+Optional injection does not handle missing aliased (useExisting) ProviderToken,2658,1,2025-05-05T12:01:11Z,2025-05-06T16:12:41Z,1.1746527777777778
+fix(devtools): catch firefox non-top level frame error case when using utilities APIs,576,2,2025-03-18T03:19:43Z,2025-03-31T17:09:59Z,13.576574074074074
+Output emitters are not properly supported in hybrid AngularJS application,2525,1,2025-03-13T10:10:43Z,2025-03-13T16:37:01Z,0.2682638888888889
+fix(devtools): handle case where router tree does not exist,278,2,2025-03-05T16:44:59Z,2025-03-05T20:05:05Z,0.13895833333333332
+"SSG: when hydrating Angular renders contradicting state in @if-else, @switch, [ngSwitch], *ngTemplateOutlet",3493,5,2025-03-05T11:24:43Z,2025-03-21T21:45:29Z,16.431087962962962
+bug(devtools): undefined `index` thrown in console once devtools have been opened,2134,5,2025-03-04T01:30:14Z,2025-03-09T22:22:49Z,5.869849537037037
+this.scheduler.notify is not a function,740,5,2025-02-24T11:20:53Z,2025-02-27T11:29:37Z,3.006064814814815
+statement in `@if` behind `as` not marked as error by compiler,583,3,2025-02-13T15:31:53Z,2025-03-27T20:25:03Z,42.20358796296296
+Can not build Angular libraries with multiple defer blocks,1576,2,2025-02-12T09:28:45Z,2025-02-12T17:16:00Z,0.32447916666666665
+Race condition in `resource()`,870,1,2025-02-03T17:19:28Z,2025-02-05T23:01:06Z,2.2372453703703705
+The above dynamic import cannot be analyzed by Vite.,2898,2,2025-01-28T19:05:42Z,2025-01-28T19:27:52Z,0.015393518518518518
+"Certain `@let` values can mimic internal data structure, breaking basic runtime logic",1664,15,2025-01-13T16:40:46Z,2025-10-27T16:32:04Z,286.99395833333335
+`EffectRef.destroy` has no impact,2146,1,2025-01-07T16:38:34Z,2025-01-08T16:40:48Z,1.0015509259259259
+No lint warnings for signals used within  control flow.,2544,6,2025-01-07T10:42:04Z,2025-08-31T11:53:21Z,236.04950231481482
+Calling resource.set(value) does not abort in-progress loaders if the given value is equal to the value before the resource was reloaded,3805,3,2024-12-20T23:54:12Z,2025-01-29T16:40:15Z,39.69864583333333
+Circular dependency in DI detected for ChangeDetectionScheduler in 19.0.4,1114,2,2024-12-20T00:48:59Z,2024-12-20T23:36:49Z,0.9498842592592592
+Inputs on Component decorator do not support signal signals.,2708,5,2024-12-17T07:04:38Z,2025-04-24T17:26:13Z,128.4316550925926
+"withComponentInputBinding() includes url parameter ""?parm=example""",1921,3,2024-12-10T15:41:26Z,2024-12-10T16:21:36Z,0.02789351851851852
+"Could not resolve ""@angular/animations/browser""",1502,6,2024-12-04T17:01:38Z,2024-12-04T19:24:38Z,0.09930555555555555
+The `provideAnimations()` return type is `Provider` instead of `EnvironmentProviders`,1847,2,2024-12-04T15:25:07Z,2025-07-10T22:01:15Z,218.27509259259259
+NG02801 raised during unit tests even if withFetch() is provided,977,1,2024-12-03T16:35:49Z,2024-12-06T00:13:00Z,2.317488425925926
+resource loader param `request` fails to exclude `undefined` from `request` returned value,2261,5,2024-11-25T11:46:29Z,2025-04-23T19:34:53Z,149.32527777777779
+Angular 19 cannot build - Cannot read properties of undefined (reading 'kind'),6011,4,2024-11-25T11:46:03Z,2024-12-06T00:14:05Z,10.519467592592592
+Output migration transforms eventEmitter.emit() into invalid output.emit(),1962,4,2024-11-14T09:40:25Z,2025-04-08T23:10:08Z,145.56230324074073
+Signal output migration wrongly updates subject.next in templates,1532,2,2024-11-13T15:47:00Z,2024-11-15T13:13:56Z,1.8937037037037037
+@for with dublicate entries and filter pipe kills browser,1474,11,2024-11-05T07:49:03Z,2024-11-06T12:02:41Z,1.1761342592592592
+Change detection doesn't fire in host directives on custom elements,958,4,2024-10-24T16:16:54Z,2024-10-30T11:46:01Z,5.811886574074074
+Using a track function directly in the new @for loop is not supported nor compiled,1672,5,2024-10-18T15:44:09Z,2025-04-15T12:23:59Z,178.86099537037038
+Stack overflow in Angular Compiler if an NgModule imports itself,16244,2,2024-10-16T14:39:47Z,2024-10-18T09:26:48Z,1.782650462962963
+`@defer (on interaction(element))` doesn't trigger when inside ng-template,1045,5,2024-10-11T10:57:29Z,2024-11-07T15:12:39Z,27.177199074074075
+ng-content doesn't project deferrable views,843,4,2024-10-07T20:36:00Z,2025-10-17T20:22:37Z,374.9907060185185
+Dynamically-created component not removed when zoneless is combined with animations,2231,2,2024-10-03T07:44:09Z,2025-04-09T18:12:57Z,188.43666666666667
+"Initializer APIs (input, output, queries) not integrating with `TestBed.override` in a jit & aot mix",1107,7,2024-09-24T10:29:26Z,2025-09-18T21:30:24Z,359.45900462962965
+Runtime warning NG0913 triggered for 300 kB svg file,1685,1,2024-09-24T07:48:16Z,2024-09-30T20:28:50Z,6.528171296296296
+"Angular effect throws ""Unsubscription error"" when signal is set in finalize operator",2739,5,2024-09-10T16:19:08Z,2025-03-27T03:35:48Z,197.46990740740742
+Allow late instrumentation of `globalThis.fetch`,2178,4,2024-08-26T16:21:52Z,2024-09-03T16:10:27Z,7.992071759259259
+fix(devtools): correctly set environment injector path in the case where there are no element injectors,445,2,2024-08-18T19:40:23Z,2024-08-28T15:49:37Z,9.83974537037037
+TS-996002 makes finding errors difficult,3537,5,2024-08-12T08:23:49Z,2025-07-10T22:18:04Z,332.57934027777776
+zone based apps + new scheduler: signal changes in another zone not triggering CD,2336,6,2024-08-05T13:22:56Z,2024-08-08T17:46:30Z,3.1830324074074072
+[vite] Internal server error: ASSERTION ERROR: Expected [Text|Element|Container|ElementContainer|Projection|IcuContainer] but got LetDeclaration.,3661,2,2024-07-27T16:15:08Z,2024-07-30T16:43:50Z,3.0199305555555553
+Skipping hydration on i18n nodes breaks hydration,3020,5,2024-07-24T07:21:25Z,2024-08-09T15:07:53Z,16.323935185185185
+Extended diagnostics do not run on structural directive attributes,900,2,2024-07-23T08:57:11Z,2025-10-14T18:58:20Z,448.41746527777775
+Broken hydration after v17 -> v18 migration if i18n blocks are used,1834,5,2024-07-15T14:35:42Z,2024-08-09T15:07:17Z,25.02193287037037
+Template of fixture is not updated using signals (in test),4549,3,2024-07-05T07:53:10Z,2024-09-19T21:18:02Z,76.55893518518519
+Routed components get services from the wrong injector,2228,2,2024-06-30T08:07:51Z,2024-07-02T17:10:57Z,2.377152777777778
+@let Bug -- should give precedence to a local let declaration over one from a parent view,2134,1,2024-06-27T12:28:30Z,2024-07-01T14:04:00Z,4.066319444444445
+Unexpected behavior when querying for TempplateRef,1417,6,2024-06-26T14:22:19Z,2024-07-11T09:42:55Z,14.805972222222222
+Angular devtools fails to display component information when it injects a number value,2249,1,2024-06-25T21:07:54Z,2025-08-29T12:41:12Z,429.648125
+signals (or function calls in the templates) in language service,2524,5,2024-06-17T11:13:41Z,2024-10-04T23:09:31Z,109.49710648148148
+Documentation is not reproducing descriptions associated with JSDoc @returns tag in angular.dev site,1915,2,2024-06-05T14:56:20Z,2024-10-08T18:48:35Z,125.16128472222222
+Exception when using null coalescing operator in @for track expression,2548,3,2024-06-04T11:45:34Z,2025-02-12T17:56:13Z,253.25739583333333
+Syntax highlighting on angular.dev should have better contrast ,651,4,2024-05-29T17:36:45Z,2024-05-29T17:56:56Z,0.014016203703703704
+Angular @defer breaks when a deferred component is used as a GENERIC TYPE (not a value) of the viewChild,2304,7,2024-05-22T12:58:07Z,2024-10-07T15:26:11Z,138.10282407407408
+DevTools cause Firefox to consume high CPU and memory on Microsoft 365 websites,2378,13,2024-05-17T15:53:06Z,2025-07-21T15:19:46Z,429.97685185185185
+@for and ngFor reporting errors but still iterating over data,2520,6,2024-04-30T22:02:55Z,2024-05-01T20:29:36Z,0.9351967592592593
+ngProjectedAs not working when used as static host property inside @Component,3000,6,2024-04-19T23:44:00Z,2025-10-18T17:55:55Z,546.758275462963
+reading required signal input from effect causes error NG0950 when done inside structural directive creating an embedded view after promise resolves,2246,6,2024-04-12T10:45:44Z,2024-09-19T21:18:00Z,160.43907407407409
+"Angular Animations - fade in / out works for DIVs, not fully for child components (not sure if bug)",1556,3,2024-04-08T14:18:43Z,2024-04-08T19:23:05Z,0.21136574074074074
+Uncaught Error: ASSERTION ERROR: NodeInjector must have some connection to the module injector tree,2287,7,2024-03-30T20:57:28Z,2024-04-03T15:26:52Z,3.7704166666666667
+ChangeDetectionSchedulerImpl breaks Zoneless apps,1680,1,2024-03-29T10:51:22Z,2024-03-29T16:59:04Z,0.2553472222222222
+Using this keyword in templates will use template varibales instead of component variables.,2235,3,2024-03-29T09:59:42Z,2024-10-08T16:02:21Z,193.25184027777777
+HttpRequest.clone forgets transferCache,1994,4,2024-03-18T14:05:52Z,2024-03-22T05:13:50Z,3.6305324074074075
+Router links in `@defer` blocks not having correct relative route,1232,24,2024-03-14T17:28:24Z,2024-04-22T19:01:52Z,39.06490740740741
+Using viewChild/viewChildren with private property should be an error,1594,3,2024-03-14T16:03:56Z,2024-03-27T16:54:49Z,13.035335648148148
+compiler: cryptic error when the track expression is empty for the control flow @for,4515,1,2024-03-08T11:15:09Z,2024-03-11T16:17:47Z,3.210162037037037
+two-way binding with a signal in @for-block throws a compilation error,4122,1,2024-03-01T09:12:42Z,2024-03-11T18:01:51Z,10.367465277777777
+Styles are not updated correctly after image loaded by NgOptimizedImage (with OnPush Change Detection),1077,1,2024-02-16T08:31:06Z,2024-02-20T17:50:05Z,4.38818287037037
+[Queries as signals]:  Signal Queries throws console errors when component is rendered as custom element ,1543,6,2024-02-15T04:12:12Z,2024-02-15T20:21:32Z,0.6731481481481482
+ISO week-numbering year incorrect for some years,2393,10,2024-01-06T03:35:19Z,2024-02-11T21:08:21Z,36.73127314814815
+DefaultDomRenderer2 causing setAttribute not a function error on comment elements,1179,5,2024-01-02T16:01:38Z,2025-09-26T17:53:04Z,633.0773842592592
+Passing a trackBy function as input doesn't work with new control flow,2566,6,2023-12-19T10:12:12Z,2024-03-22T05:08:44Z,93.78925925925925
+Angular 17 @empty block not working in nested propagated component,2259,6,2023-12-14T12:55:37Z,2023-12-19T16:37:39Z,5.154189814814814
+Serving from subpath broken in Angular v17,1672,4,2023-12-13T16:10:11Z,2023-12-18T20:35:26Z,5.184201388888889
+"ngIf with animation, nested in ngFor, create clones of itself, when item is reordered ""upwards""",1467,5,2023-12-11T13:33:16Z,2025-08-20T13:00:01Z,617.9769097222222
+"BUG: syntax coloring for new block syntax, not working with Allman formatting",1051,3,2023-12-10T17:45:23Z,2024-05-17T17:00:56Z,158.96913194444446
+error code beyond expected range,1492,1,2023-12-07T21:22:18Z,2024-12-23T01:29:50Z,381.17189814814816
+Console Warnings when unit testing Components using NgOptimizedImage,2503,4,2023-12-06T13:40:26Z,2025-01-18T18:55:15Z,409.2186226851852
+Standalone injectors do not seem to be completely isolated,3413,2,2023-12-05T18:46:58Z,2024-04-01T16:19:18Z,117.8974537037037
+After running the control flow migration strict template checking is enforced.,1696,9,2023-11-16T17:04:27Z,2024-04-19T13:29:59Z,154.8510648148148
+fix(dev-tools): error injector configuration issue,1900,8,2023-11-15T13:40:46Z,2023-11-20T02:40:35Z,4.541539351851852
+Nested for loops reset parent even/odd,686,1,2023-11-14T23:29:52Z,2023-11-16T17:29:55Z,1.7500347222222221
+@for ExpressionChangedAfterItHasBeenCheckedError,1641,4,2023-11-14T11:47:18Z,2023-11-15T21:13:44Z,1.3933564814814814
+Control Flow: Null Checks with usage of conditional expression results not working,1287,11,2023-11-13T12:38:42Z,2024-05-17T17:15:12Z,186.19201388888888
+Compiler reports the variable `$last` inside the `@for` block as `number` when it is mapped into the Input/Output binding,6129,1,2023-11-09T12:26:12Z,2023-11-09T15:48:04Z,0.1401851851851852
+`effect` and `computed` throws circular dependency when `ErrorHandler` creates `effect` `computed` during construction (or one of its dependencies does),3142,12,2023-11-08T16:00:05Z,2024-01-03T18:17:37Z,56.09550925925926
+control flow: Property '$index' does not exist on type 'TestComponent'.,1355,6,2023-11-06T14:50:05Z,2024-03-22T05:13:17Z,136.59944444444446
+control-flow migration doesnt migrate code with *ngIf else directive,1962,3,2023-11-03T00:34:44Z,2023-11-03T16:33:03Z,0.6654976851851852
+Functions called with optional chaining are missing method coloration,4278,1,2023-10-30T20:35:51Z,2026-02-10T17:42:05Z,833.8793287037037
+`@switch` does not have type awareness in case statements,1044,3,2023-10-23T01:59:31Z,2023-10-23T16:28:06Z,0.6031828703703703
+Parser error for line break when creating composite key using @for,1919,1,2023-10-10T08:28:14Z,2023-10-10T18:19:48Z,0.4108101851851852
+defer viewport doesn't work as expected,884,1,2023-10-09T14:05:30Z,2023-10-10T16:51:26Z,1.1152314814814814
+@if and async pipe throws with `No provider for _ChangeDetectorRef!`,1931,3,2023-10-08T13:01:06Z,2023-10-10T16:48:43Z,2.1580671296296297
+Unexposed input of hostDirective hide input of directive on host element,3849,5,2023-10-06T09:24:54Z,2023-10-09T19:39:25Z,3.4267476851851852
+Defer block doesn't chunk components inside forwardRef,1026,4,2023-10-04T11:37:07Z,2023-10-04T15:57:54Z,0.18109953703703704
+@for with async - Object is possible null,1917,3,2023-10-03T06:35:37Z,2023-10-04T13:39:51Z,1.2946064814814815
+Child route data is not inherited from parent unless 'runGuardsAndResolvers' returns true,1563,5,2023-09-27T20:23:14Z,2023-10-19T17:26:37Z,21.877349537037038
+invalid server configuration for apache2,1208,5,2023-09-23T18:23:56Z,2023-09-27T16:45:18Z,3.9315046296296297
+standalone migration's `prune-ng-modules` mode doesn't update standalone imports,2087,2,2023-08-18T08:27:41Z,2024-09-06T14:15:54Z,385.2418171296296
+zone.js promises returning Unhandled Promise Rejection error even with catch blocks,3455,8,2023-08-10T23:59:34Z,2026-04-15T14:31:37Z,978.6055902777778
+Named characters references containing digits are not processed properly,2475,5,2023-08-10T16:50:22Z,2026-03-17T19:54:44Z,950.1280324074074
+Long numeric HTML Entities in templates are compiled wrong,9458,4,2023-08-04T18:15:09Z,2025-10-21T20:28:51Z,809.0928472222222
+"""Template reference variables"" topic does not have active state in navigation",1034,4,2023-08-01T18:40:23Z,2024-02-01T23:19:38Z,184.1939236111111
+Attribute two way binding not working with `$any` and error is unclear,728,6,2023-07-25T14:39:35Z,2025-01-06T17:25:28Z,531.1151967592592
+HttpClient with fetch backend triggers too much change detection,1842,4,2023-07-09T10:57:19Z,2023-07-17T14:54:00Z,8.164363425925925
+Scss source maps mismatch in angular 16,2203,2,2023-06-25T13:26:53Z,2024-05-06T19:39:54Z,316.25903935185187
+Issue with assigning lazy loaded standalone components environment injectors,1436,6,2023-06-14T18:47:26Z,2023-07-10T14:07:53Z,25.805868055555557
+Bug (or Docs Bug?): Unable to test recursive standalone component due to NG0300,8875,7,2023-05-30T20:54:47Z,2023-06-06T21:23:48Z,7.020150462962963
+FetchEvent.respondWith error iOS/iPadOS 16.4+,2266,120,2023-05-20T07:03:02Z,2023-10-04T15:51:15Z,137.36681712962962
+Template of an OnPush component is no longer updated after a signal change in some cases,4656,11,2023-05-16T11:17:31Z,2023-11-02T20:24:02Z,170.37952546296296
+Source map not working for SCSS files,4287,6,2023-05-15T01:20:25Z,2023-06-01T15:45:20Z,17.600636574074073
+"Erratic behavior with DestroyRef, not all callbacks are always being called upon component destruction.",4456,8,2023-05-09T16:38:21Z,2023-05-11T17:17:32Z,2.027210648148148
+Canonical: Language service's compiler does not compile non-exported classes,2450,1,2023-05-08T22:39:28Z,2026-05-07T22:42:37Z,1095.0021875
+TypeError when hydration is enabled (hostElement.hasAttribute is not a function),2723,26,2023-05-03T20:27:12Z,2023-05-09T21:43:53Z,6.053252314814815
+Writing to signals is not allowed in callbacks,2381,6,2023-04-16T07:00:10Z,2023-04-18T13:59:50Z,2.2914351851851853
+takeUntilDestroyed might not work as expected in certain situations,1384,6,2023-03-31T11:49:31Z,2023-04-13T21:14:53Z,13.392615740740741
+`ng g @angular/core:standalone` should not move `RouterTestingModule.withRoutes()` import,2979,2,2023-02-06T14:46:36Z,2023-02-08T14:18:26Z,1.9804398148148148
+Error NG0312 while trying to alias inputs via host directive,4434,4,2023-02-03T17:43:30Z,2023-05-19T15:09:55Z,104.89334490740741
+`ng g @angular/core:standalone` does not migrate spec files,1614,1,2023-02-03T14:22:13Z,2023-02-08T14:18:24Z,4.997349537037037
+`ng g @angular/core:standalone` duplicates comments on top of classes,2139,1,2023-02-03T14:07:23Z,2023-02-06T17:52:24Z,3.1562615740740743
+`ng g @angular/core:standalone` imports `ɵInternalFormsSharedModule`,1969,1,2023-02-03T14:01:52Z,2023-02-06T20:27:58Z,3.268125
+`ng g @angular/core:standalone` throws when plural syntax is used in template (`TextEncoder is not defined`),1536,3,2023-02-03T13:30:57Z,2023-02-07T01:01:22Z,3.4794560185185186
+Auto import default exported component will break the imports,951,2,2023-01-10T19:51:00Z,2024-06-17T19:48:51Z,523.9985069444444
+Content should not be archived,1045,2,2022-12-26T21:01:13Z,2024-03-23T16:42:04Z,452.8200347222222
+Incorrect console warning about not animatable property: easing,2627,12,2022-12-22T10:46:17Z,2023-01-26T22:03:15Z,35.47011574074074
+CSS Selector with umlaut broken in production mode with emulated view encapsulation ,1819,2,2022-12-17T12:53:24Z,2023-01-24T17:47:04Z,38.20393518518519
+DevTools: Highlighter gets cutoff if highlighting an element that is partially off screen,595,1,2022-12-13T19:16:51Z,2023-07-26T17:04:36Z,224.90815972222222
+Unexpected behaviour for falsy values when using arrays in class binding,1552,3,2022-12-13T14:14:56Z,2023-04-19T16:28:36Z,127.09282407407407
+Recent change in compiler-cli breaks jest-preset-angular ,3391,7,2022-12-12T11:13:53Z,2023-01-04T20:29:21Z,23.38574074074074
+Devtools inspect element is a little off,1541,1,2022-12-09T08:59:15Z,2025-08-29T15:21:13Z,994.2652546296297
+Throw NG0300 error at built-time rather than at runtime,667,6,2022-12-06T15:24:57Z,2026-03-19T23:12:04Z,1199.324386574074
+Update docs on how to create code coverage in the current Angular version (15),580,5,2022-12-05T19:27:55Z,2023-01-18T18:44:22Z,43.96975694444444
+Component's host directives should be able to inject its `ChangeDetectorRef`,2099,2,2022-11-28T08:06:29Z,2022-12-07T17:06:54Z,9.375289351851851
+ngDoCheck hook has a bit misleading documentation,1720,2,2022-11-20T19:28:38Z,2026-05-20T18:12:09Z,1276.9468865740741
+`$localize` is not found after `ng add` with cli v15.0.0-next.4 and ng v15.0.0-next.5,2067,2,2022-10-06T08:46:02Z,2022-10-17T07:58:25Z,10.966932870370371
+Angular Zone seems to have problems with the new rxjs firstValueFrom leading to infinite dirty check loop,1152,7,2022-09-19T16:43:28Z,2022-09-19T17:19:44Z,0.025185185185185185
+Wrong reference link for ExtraOptions's errorHandler type,1019,4,2022-08-22T08:47:01Z,2023-04-13T16:09:08Z,234.30702546296297
+Check for TransferState.isEmpty prevents serialization,2135,1,2022-08-17T11:23:54Z,2022-10-28T09:28:22Z,71.91976851851852
+Suggestions for enums not working,490,3,2022-08-09T11:07:52Z,2026-01-07T20:13:54Z,1247.3791898148147
+Service worker is not been registered DOMException,3109,4,2022-08-05T11:56:30Z,2022-08-17T09:35:44Z,11.90224537037037
+Why updateValueAndValidity is not updating the value of form Controls in Angular 12,1939,5,2022-07-28T09:36:37Z,2022-08-03T01:11:44Z,5.649386574074074
+HTML escaper performance could be improved by adopting the same html escaping code as Svelte and Solid JS,821,4,2022-07-23T04:26:06Z,2023-05-19T13:03:14Z,300.35912037037036
+dynamic create component in library package not work,953,5,2022-07-22T07:28:58Z,2022-07-25T06:55:32Z,2.9767824074074074
+Ampersand within embedded expressions causes HTML entities not to render,2347,5,2022-07-21T21:51:02Z,2024-02-11T18:56:38Z,569.8788888888889
+propName.toLowerCase is not a function,2001,5,2022-07-21T18:09:52Z,2022-09-06T18:55:19Z,47.0315625
+extended diagnostic for non-nullable optional is wrong,1985,39,2022-07-21T08:09:06Z,2025-09-25T14:50:17Z,1162.278599537037
+Renderer2 lacks security documentation,2283,7,2022-07-20T16:02:21Z,2025-08-29T15:28:49Z,1135.976712962963
+angular modules no longer sufficient,3412,8,2022-07-18T20:11:01Z,2022-07-19T16:41:14Z,0.8543171296296296
+Reactive form control `root` points to nothing or itself.,1884,6,2022-07-18T20:09:52Z,2025-09-25T00:50:59Z,1164.1952199074074
+"Language Service: This component requires inline template type-checking, which is not supported by the current environment.(-998900)",1016,6,2022-07-08T09:40:22Z,2022-07-12T21:09:24Z,4.4784953703703705
+[platform-server] SSR for Standalone Component: bootstrapApplication have memory leaks ,3090,15,2022-06-23T10:05:02Z,2022-06-28T20:03:02Z,5.415277777777778
+Typed FormGroup reset() does not accept FormState type,1637,7,2022-06-22T17:03:05Z,2025-09-24T21:29:38Z,1190.1851041666666
+Wrong FormControl type inference when created with FormBuild through group() with Validators and an array as value ,2361,16,2022-06-21T08:20:08Z,2022-08-31T08:16:08Z,70.99722222222222
+"Typescript 4.7's ""module"": ""Node16"" yields invalid output or error for library build",8287,7,2022-05-29T21:27:18Z,2025-04-24T21:36:06Z,1061.006111111111
+`ViewRef#onDestroy` throws an error in a ctor context,1129,10,2022-05-24T03:15:40Z,2022-06-06T23:48:00Z,13.855787037037038
+bug(pipe): currency pipe missing whitespace on negative amount,2765,7,2022-05-18T16:18:35Z,2023-09-16T21:47:51Z,486.2286574074074
+Incorrect punctuation is used in Dr IQ's name,1726,2,2022-05-16T20:52:14Z,2022-09-29T23:44:01Z,136.1192939814815
+Improve error message when using directives from CommonModule into @Component.imports,2740,2,2022-05-16T17:49:43Z,2022-08-25T12:00:32Z,100.75751157407407
+Improve error message when adding a non-standalone component into @Component.imports,2046,2,2022-05-16T13:27:52Z,2022-07-20T15:50:08Z,65.0987962962963
+Error for importing ModuleWithProviders into @Component.imports could be improved,1667,1,2022-05-16T13:09:58Z,2022-05-23T20:50:11Z,7.319594907407407
+Specific keys binding on MacOs should work,654,10,2022-05-13T19:34:07Z,2022-07-18T15:29:13Z,65.82993055555555
+"Improve TestBed error when standalone types are present in ""declarations""",1511,5,2022-05-08T19:09:18Z,2022-05-25T19:20:58Z,17.00810185185185
+DevTools: Variables initialized to undefined appearing as [setter] in property inspector,635,3,2022-05-05T02:30:12Z,2022-05-16T23:30:47Z,11.875405092592592
+docs: update the formatting of the changelog,1451,1,2022-05-03T23:49:10Z,2024-02-01T20:33:27Z,638.8640856481481
+firebase: add support for redirects from an old link#section to a new link#section,540,4,2022-05-03T23:34:43Z,2024-02-01T20:33:36Z,638.8742245370371
+Update error message for an unknown tag in standalone components,703,15,2022-04-29T16:31:54Z,2022-05-23T16:27:22Z,23.99685185185185
+FormControl on number input returns null value when the last character in the field is a period,1751,7,2022-04-29T08:35:39Z,2022-08-08T23:43:59Z,101.63078703703704
+Out of date docs regarding component styling,914,7,2022-04-28T16:32:22Z,2024-02-01T20:37:32Z,644.1702546296297
+Jest detects open handles in getTestBed after upgrade from angular v12 to v13,2573,14,2022-04-27T09:25:06Z,2022-06-01T12:34:35Z,35.131585648148146
+Animated elements with structural directives are duplicated when moving parent between ViewContainerRefs,2819,2,2022-04-27T08:10:02Z,2025-08-20T13:00:48Z,1211.2019212962964
+Angular runtime created components aren't listed in @ViewChildren,1518,5,2022-04-26T23:05:12Z,2022-05-27T10:06:23Z,30.459155092592592
+Offensive hero name,938,6,2022-04-26T17:35:40Z,2022-05-27T14:40:10Z,30.878125
+"What exactly does it mean that ""Function calls are not supported"" in AOT metadata",3194,7,2022-04-25T11:56:53Z,2022-06-28T22:22:57Z,64.43476851851852
+NgModule.declarations forwardRef doesn't work for JIT,1841,1,2022-04-24T03:55:10Z,2022-06-13T17:00:11Z,50.545150462962965
+"*ngComponentOutlet types don't allow null/undefined, even though it supports it",1038,2,2022-04-21T14:08:37Z,2022-06-09T16:04:26Z,49.080428240740744
+Zone.js cancelTask throws an error when trying to cancel a previously cancelled task,2178,1,2022-04-21T12:32:10Z,2022-10-11T17:20:59Z,173.20056712962963
+HostListener on specific keys negates effect of ngZoneEventCoalescing,1638,2,2022-04-20T14:20:31Z,2023-03-06T18:45:09Z,320.18377314814813
+Emulated view encapsulation incorrectly transforms CSS that uses `:is()` or `:where()`,2517,10,2022-04-19T23:11:23Z,2024-10-10T08:13:27Z,904.3764351851852
+NgForOf incorrect behaviour with array of strings and inputs,3796,15,2022-04-15T07:46:59Z,2024-02-11T18:43:34Z,667.4559606481481
+Resolve issues and update a11y tests,1453,2,2022-04-12T23:00:02Z,2024-02-01T20:34:05Z,659.8986458333334
+HTTP client stripping trailing whitespaces in URLs when there are no query parameters,1835,3,2022-03-23T15:13:27Z,2022-05-23T23:37:11Z,61.34981481481481
+Angular SSR cannot use ESM modules (Domino compatibility issue),1963,15,2022-02-12T18:30:22Z,2023-03-09T17:49:06Z,389.9713425925926
+`FatalDiagnosticError` is being throw instead of it being converted to a`ts.Diagnostic`,3484,10,2022-02-06T03:15:20Z,2022-06-10T20:40:25Z,124.72575231481481
+zone.js propertyPatch breaks spread for objects with Symbol keys.,953,2,2021-11-06T11:04:39Z,2022-03-03T20:22:14Z,117.38721064814816
+"HttpClient documentation confusing (""response body as a JSON object"") about overload #14 / #15 of multiple methods (request, get, post)",1481,7,2021-08-24T14:38:34Z,2022-09-02T02:16:21Z,373.48457175925927
+Angular Service Worker should prefetch assets in parallel,1449,10,2020-10-29T14:24:57Z,2025-08-29T10:48:43Z,1764.849837962963
+Hierarchical injectors @Host() decorator explanation incomplete,947,7,2020-02-13T11:57:24Z,2025-10-05T12:28:59Z,2061.02193287037
+ngSwitchCase doesn't handle undefined properly,2761,8,2019-11-16T12:45:00Z,2023-10-09T17:10:27Z,1423.1843402777777
+BrowserAnimationsModule should guard against being lazy loaded,365,5,2018-06-29T17:08:13Z,2023-01-28T23:00:45Z,1674.2448148148148
+Bug(Animations): animation transition :enter delay should delay the appearance of an element,1774,6,2018-06-04T14:13:14Z,2025-08-20T13:01:03Z,2633.9498726851853
+Router tutorial tour of heroes lacks milestone stackblitz/executable/downloads,5132,5,2017-06-27T14:40:44Z,2024-02-01T20:25:56Z,2410.239722222222
